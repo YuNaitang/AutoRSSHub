@@ -1,11 +1,8 @@
-<<<<<<< HEAD
 # RSS 源列表（每行一个 URL，以 # 开头为注释）
-# 示例：
-# https://example.com/feed.xml
-# https://blog.another.com/rss
-=======
-# RSS 源列表（每行一个 URL，以 # 开头为注释）
-# 示例：
-# https://example.com/feed.xml
-# https://blog.another.com/rss
->>>>>>> a8ca5bb8ca3e170413220a91b8e4b1a31111c6a9
+
+https://www.sspai.com/feed
+https://36kr.com/feed
+http://feeds.feedburner.com/ruanyifeng
+https://quail.ink/op7418/feed/atom
+https://www.v2ex.com/index.xml
+https://www.ithome.com/rss
