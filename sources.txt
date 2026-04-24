@@ -1,0 +1,4 @@
+# RSS 源列表（每行一个 URL，以 # 开头为注释）
+# 示例：
+# https://example.com/feed.xml
+# https://blog.another.com/rss
