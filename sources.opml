@@ -1,26 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Awesome RSSHub Routes 精选订阅源</title>
-    <dateCreated>2026-01-22</dateCreated>
-    <ownerName>JackyST0</ownerName>
+    <title>鱼鱼的中文科技周刊订阅列表</title>
+    <dateCreated>2026-04-24T12:00:00Z</dateCreated>
+    <ownerName>Yvette</ownerName>
   </head>
   <body>
-    <!-- AI 专题 -->
-    <outline text="🤖 AI 专题" title="AI 专题">
-      <outline type="rss" text="机器之心" title="机器之心" xmlUrl="https://www.jiqizhixin.com/rss"/>
-      <outline type="rss" text="Simon Willison's Blog" title="Simon Willison's Blog" xmlUrl="https://simonwillison.net/atom/everything/"/>
-    </outline>
-
-    <!-- 技术社区 -->
-    <outline text="💻 技术社区" title="技术社区">
-      <outline type="rss" text="少数派" title="少数派" xmlUrl="https://sspai.com/feed"/>
-      <outline type="rss" text="阮一峰的网络日志" title="阮一峰的网络日志" xmlUrl="https://www.ruanyifeng.com/blog/atom.xml"/>
-    </outline>
-
-    <!-- 新闻资讯 -->
-    <outline text="📰 新闻资讯" title="新闻资讯">
-      <outline type="rss" text="IT之家" title="IT之家" xmlUrl="https://www.ithome.com/rss/"/>
-    </outline>
+    <!-- 个人周刊 / 观点类 -->
+    <outline text="科技爱好者周刊（阮一峰）" type="rss" xmlUrl="https://www.ruanyifeng.com/blog/atom.xml"/>
+    <outline text="老胡的周刊" type="rss" xmlUrl="https://weekly.howie6879.cn/rss/rss.xml"/>
+    
+    <!-- 社区 / 媒体类 -->
+    <outline text="少数派" type="rss" xmlUrl="https://sspai.com/feed"/>
+    <outline text="知乎精选" type="rss" xmlUrl="https://www.zhihu.com/rss"/>
+    <outline text="知乎日报" type="rss" xmlUrl="https://daily.zhihu.com/atom"/>
+    <outline text="V2EX 精华（分享创造）" type="rss" xmlUrl="https://v2ex-create.nexmm.com/rss.xml"/>
+    <outline text="IT之家" type="rss" xmlUrl="https://www.ithome.com/rss"/>
+    <outline text="36氪" type="rss" xmlUrl="https://www.36kr.com/feed"/>
+    <outline text="极客公园" type="rss" xmlUrl="https://www.geekpark.net/rss"/>
+    
+    <!-- AI / 技术专题 -->
+    <outline text="三花 AI 快讯" type="rss" xmlUrl="https://sanhua.himrr.com/daily-news/feed"/>
+    <outline text="机器之心" type="rss" xmlUrl="https://www.jiqizhixin.com/rss"/>
+    <outline text="量子位" type="rss" xmlUrl="https://www.qbitai.com/feed"/>
+    <outline text="Hugging Face 官方博客" type="rss" xmlUrl="https://huggingface.co/blog/feed.xml"/>
+    
+    <!-- 热榜 / 动态聚合（基于 RSSHub） -->
+    <outline text="GitHub 每日热榜" type="rss" xmlUrl="https://rsshub.app/github/trending/daily"/>
+    <outline text="B站排行榜（全站）" type="rss" xmlUrl="https://rsshub.app/bilibili/ranking/all/0/3"/>
+    <outline text="微博实时热榜" type="rss" xmlUrl="https://rsshub.app/weibo/hot/search"/>
   </body>
 </opml>
