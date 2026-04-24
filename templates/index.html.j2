@@ -51,15 +51,18 @@
     display:flex;
     min-height:100vh;
   }
+  /* ---------- 侧边栏（正常文档流，不覆盖内容） ---------- */
   .sidebar {
-    width:var(--sidebar-width);
-    background:var(--ctp-mantle);
-    border-right:1px solid var(--border);
-    padding:1.5rem 1rem;
-    position:fixed;
-    top:0; left:0; bottom:0;
-    overflow-y:auto;
-    z-index:10;
+    width: var(--sidebar-width);
+    min-width: var(--sidebar-width);
+    background: var(--ctp-mantle);
+    border-right: 1px solid var(--border);
+    padding: 1.5rem 1rem;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    overflow-y: auto;
+    z-index: 5;
   }
   .sidebar h2 {
     font-size:1.2rem;
@@ -142,37 +145,50 @@
   }
   .tools button:hover { background:var(--border); }
 
+  /* ---------- 主内容区 ---------- */
   .main {
-    margin-left:var(--sidebar-width);
-    padding:2rem;
-    flex:1;
+    flex: 1;
+    overflow-y: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  /* 内容包装器：控制最大宽度与对齐 */
+  .content-wrapper {
+    width: 100%;
     transition: max-width 0.3s, margin 0.3s;
   }
-  /* 默认居中 */
-  body.layout-center .main { max-width: 800px; }
-  body.layout-left .main { max-width: none; }
 
-  /* 列表视图（默认） */
-  #articles-container.list-view article {
-    display:block;
+  /* 页面居中模式：内容区最大宽度固定，并自动居中 */
+  body.layout-center .content-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
   }
-  /* 瀑布视图 */
+  /* 左侧对齐模式：内容区撑满，紧贴菜单栏 */
+  body.layout-left .content-wrapper {
+    max-width: none;
+    margin: 0;
+  }
+
+  /* 文章容器视图模式 */
+  #articles-container.list-view article {
+    display: block;
+  }
   #articles-container.masonry-view {
     columns: 2;
     column-gap: 1rem;
   }
   #articles-container.masonry-view article {
     break-inside: avoid;
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
   }
-  /* 网格视图 */
   #articles-container.grid-view {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 1rem;
   }
   #articles-container.grid-view article {
-    margin-bottom:0;
+    margin-bottom: 0;
   }
 
   header {
@@ -254,18 +270,20 @@
   footer a { color:var(--accent); }
 
   @media (max-width: 768px) {
-    body { flex-direction:column; }
-    .sidebar {
-      position:relative;
-      width:100%;
-      border-right:none;
-      border-bottom:1px solid var(--border);
-      padding:1rem;
+    body {
+      flex-direction: column;
     }
-    .main {
-      margin-left:0;
-      padding:1rem;
-      max-width:100%;
+    .sidebar {
+      position: relative;
+      width: 100%;
+      min-width: 100%;
+      height: auto;
+      border-right: none;
+      border-bottom: 1px solid var(--border);
+    }
+    .content-wrapper {
+      max-width: none !important;
+      margin: 0 !important;
     }
     #articles-container.masonry-view { columns: 1; }
   }
@@ -278,7 +296,7 @@
   <!-- 外观配置 -->
   <div class="appearance-panel">
     <div class="row">
-      <label>对齐</label>
+      <label>页面布局</label>
       <div class="btn-group" id="alignment-group">
         <button data-value="center" class="active">居中</button>
         <button data-value="left">左侧</button>
@@ -294,7 +312,7 @@
     </div>
   </div>
 
-  <!-- 源树（JS动态构建） -->
+  <!-- 源树（动态构建） -->
   <div id="source-tree" class="source-tree"></div>
 
   <div class="tools">
@@ -304,29 +322,31 @@
 </div>
 
 <main class="main">
-  <header>
-    <h1>RSS 阅读器</h1>
-    <p>最近 {{ period }} 小时 · 共 <span id="total-count">{{ count }}</span> 篇 · 生成于 {{ generated_at }}</p>
-  </header>
-  <div id="articles-container" class="list-view">
-    {% for a in articles %}
-    <article class="feed-article" data-source="{{ a.source }}">
-      <h2><a href="{{ a.link or '#' }}" target="_blank" rel="noopener">{{ a.title }}</a></h2>
-      <div class="meta">
-        <span>来源: {{ a.source }}</span>
-        <span>{{ a.published[:16] if a.published else '' }}</span>
-      </div>
-      {% if a.summary %}<div class="summary">{{ a.summary[:300] }}</div>{% endif %}
-      {% if a.content %}<div class="content">{{ a.content[:600] }}</div>{% endif %}
-    </article>
-    {% endfor %}
-    {% if not articles %}
-    <div class="empty" id="empty-msg">暂无最近 {{ period }} 小时的文章</div>
-    {% endif %}
+  <div class="content-wrapper">
+    <header>
+      <h1>RSS 阅读器</h1>
+      <p>最近 {{ period }} 小时 · 共 <span id="total-count">{{ count }}</span> 篇 · 生成于 {{ generated_at }}</p>
+    </header>
+    <div id="articles-container" class="list-view">
+      {% for a in articles %}
+      <article class="feed-article" data-source="{{ a.source }}">
+        <h2><a href="{{ a.link or '#' }}" target="_blank" rel="noopener">{{ a.title }}</a></h2>
+        <div class="meta">
+          <span>来源: {{ a.source }}</span>
+          <span>{{ a.published[:16] if a.published else '' }}</span>
+        </div>
+        {% if a.summary %}<div class="summary">{{ a.summary[:300] }}</div>{% endif %}
+        {% if a.content %}<div class="content">{{ a.content[:600] }}</div>{% endif %}
+      </article>
+      {% endfor %}
+      {% if not articles %}
+      <div class="empty" id="empty-msg">暂无最近 {{ period }} 小时的文章</div>
+      {% endif %}
+    </div>
+    <footer>
+      <p>自动生成 · 每小时更新 · <a href="summary.json">AI 助理端点</a></p>
+    </footer>
   </div>
-  <footer>
-    <p>自动生成 · 每小时更新 · <a href="summary.json">AI 助理端点</a></p>
-  </footer>
 </main>
 
 <script>
@@ -341,7 +361,7 @@
       group.forEach(btn => btn.classList.toggle('active', btn.dataset.value === value));
     }
 
-    // 对齐
+    // 页面布局
     const savedAlign = localStorage.getItem('rss-alignment') || 'center';
     body.classList.add('layout-' + savedAlign);
     setActive(alignBtns, savedAlign);
@@ -353,7 +373,7 @@
       localStorage.setItem('rss-alignment', val);
     }));
 
-    // 视图
+    // 视图模式
     const savedView = localStorage.getItem('rss-view') || 'list';
     container.className = savedView + '-view';
     setActive(viewBtns, savedView);
@@ -365,9 +385,12 @@
     }));
   })();
 
-  // ----- 侧边栏源树构建 -----
+  // ----- 侧边栏源树构建（从 sources.json） -----
   fetch('sources.json')
-    .then(res => res.json())
+    .then(res => {
+      if (!res.ok) throw new Error('sources.json 加载失败');
+      return res.json();
+    })
     .then(sources => {
       const treeContainer = document.getElementById('source-tree');
       if (!sources.length) {
@@ -375,12 +398,11 @@
         return;
       }
 
-      // 递归构建节点
       function buildTree(nodes, parentEl) {
         nodes.forEach(node => {
           if (node.type === 'folder') {
             const details = document.createElement('details');
-            details.open = true; // 默认展开
+            details.open = true;
             details.innerHTML = `<summary>${node.name}</summary>`;
             const innerDiv = document.createElement('div');
             details.appendChild(innerDiv);
@@ -396,9 +418,13 @@
         });
       }
       buildTree(sources, treeContainer);
+    })
+    .catch(err => {
+      console.warn('侧边栏加载失败:', err);
+      document.getElementById('source-tree').innerHTML = '<div style="color:var(--muted);">源列表加载失败</div>';
     });
 
-  // ----- 文章过滤（按源） -----
+  // ----- 文章过滤（按源名称） -----
   function filterArticles() {
     const checkboxes = document.querySelectorAll('#source-tree input[type="checkbox"]');
     const visibleSources = new Set();
