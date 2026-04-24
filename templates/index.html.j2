@@ -1,460 +1,649 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>RSS 阅读器</title>
-<style>
-  /* Catppuccin Mocha */
-  :root {
-    --ctp-rosewater: #f5e0dc;
-    --ctp-flamingo: #f2cdcd;
-    --ctp-pink: #f5c2e7;
-    --ctp-mauve: #cba6f7;
-    --ctp-red: #f38ba8;
-    --ctp-maroon: #eba0ac;
-    --ctp-peach: #fab387;
-    --ctp-yellow: #f9e2af;
-    --ctp-green: #a6e3a1;
-    --ctp-teal: #94e2d5;
-    --ctp-sky: #89dceb;
-    --ctp-sapphire: #74c7ec;
-    --ctp-blue: #89b4fa;
-    --ctp-lavender: #b4befe;
-    --ctp-text: #cdd6f4;
-    --ctp-subtext1: #bac2de;
-    --ctp-subtext0: #a6adc8;
-    --ctp-overlay2: #9399b2;
-    --ctp-overlay1: #7f849c;
-    --ctp-overlay0: #6c7086;
-    --ctp-surface2: #585b70;
-    --ctp-surface1: #45475a;
-    --ctp-surface0: #313244;
-    --ctp-base: #1e1e2e;
-    --ctp-mantle: #181825;
-    --ctp-crust: #11111b;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSS 阅读器</title>
+    <style>
+        /* Catppuccin Mocha */
+        :root {
+            --ctp-rosewater: #f5e0dc;
+            --ctp-flamingo: #f2cdcd;
+            --ctp-pink: #f5c2e7;
+            --ctp-mauve: #cba6f7;
+            --ctp-red: #f38ba8;
+            --ctp-maroon: #eba0ac;
+            --ctp-peach: #fab387;
+            --ctp-yellow: #f9e2af;
+            --ctp-green: #a6e3a1;
+            --ctp-teal: #94e2d5;
+            --ctp-sky: #89dceb;
+            --ctp-sapphire: #74c7ec;
+            --ctp-blue: #89b4fa;
+            --ctp-lavender: #b4befe;
+            --ctp-text: #cdd6f4;
+            --ctp-subtext1: #bac2de;
+            --ctp-subtext0: #a6adc8;
+            --ctp-overlay2: #9399b2;
+            --ctp-overlay1: #7f849c;
+            --ctp-overlay0: #6c7086;
+            --ctp-surface2: #585b70;
+            --ctp-surface1: #45475a;
+            --ctp-surface0: #313244;
+            --ctp-base: #1e1e2e;
+            --ctp-mantle: #181825;
+            --ctp-crust: #11111b;
 
-    --bg: var(--ctp-base);
-    --card: var(--ctp-surface0);
-    --text: var(--ctp-text);
-    --muted: var(--ctp-subtext0);
-    --accent: var(--ctp-blue);
-    --border: var(--ctp-surface1);
-    --sidebar-width: 260px;
-  }
-  * { margin:0; padding:0; box-sizing:border-box; }
-  body {
-    background:var(--bg);
-    color:var(--text);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-    line-height:1.6;
-    display:flex;
-    min-height:100vh;
-  }
-  /* ---------- 侧边栏（正常文档流，不覆盖内容） ---------- */
-  .sidebar {
-    width: var(--sidebar-width);
-    min-width: var(--sidebar-width);
-    background: var(--ctp-mantle);
-    border-right: 1px solid var(--border);
-    padding: 1.5rem 1rem;
-    height: 100vh;
-    position: sticky;
-    top: 0;
-    overflow-y: auto;
-    z-index: 5;
-  }
-  .sidebar h2 {
-    font-size:1.2rem;
-    color:var(--ctp-lavender);
-    margin-bottom:0.75rem;
-  }
-  .appearance-panel {
-    border-bottom:1px solid var(--border);
-    padding-bottom:0.75rem;
-    margin-bottom:0.75rem;
-  }
-  .appearance-panel .row {
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    margin-bottom:0.5rem;
-  }
-  .appearance-panel label {
-    font-size:0.75rem;
-    color:var(--muted);
-  }
-  .appearance-panel .btn-group {
-    display:flex;
-    gap:2px;
-  }
-  .appearance-panel button {
-    background:var(--card);
-    border:1px solid var(--border);
-    color:var(--text);
-    padding:0.2rem 0.5rem;
-    font-size:0.7rem;
-    border-radius:4px;
-    cursor:pointer;
-    transition: background 0.2s;
-  }
-  .appearance-panel button.active {
-    background:var(--accent);
-    color:var(--ctp-crust);
-    border-color:var(--accent);
-  }
-  .source-tree {
-    margin-top:0.5rem;
-  }
-  .source-tree details {
-    margin-bottom:0.25rem;
-  }
-  .source-tree summary {
-    font-size:0.85rem;
-    color:var(--ctp-lavender);
-    cursor:pointer;
-    padding:0.2rem 0;
-    outline:none;
-  }
-  .source-tree .source-item {
-    display:flex;
-    align-items:center;
-    padding-left:1rem;
-    font-size:0.8rem;
-    margin-bottom:0.25rem;
-  }
-  .source-item input[type="checkbox"] {
-    margin-right:0.5rem;
-    accent-color: var(--accent);
-  }
-  .tools {
-    display:flex;
-    gap:0.5rem;
-    margin-top:0.75rem;
-    padding-top:0.75rem;
-    border-top:1px solid var(--border);
-  }
-  .tools button {
-    background:var(--card);
-    border:1px solid var(--border);
-    color:var(--text);
-    padding:0.25rem 0.6rem;
-    font-size:0.75rem;
-    border-radius:4px;
-    cursor:pointer;
-  }
-  .tools button:hover { background:var(--border); }
+            --bg: var(--ctp-base);
+            --card: var(--ctp-surface0);
+            --text: var(--ctp-text);
+            --muted: var(--ctp-subtext0);
+            --accent: var(--ctp-blue);
+            --border: var(--ctp-surface1);
+            --sidebar-width: 260px;
+            --sidebar-width-narrow: 170px;
+        }
 
-  /* ---------- 主内容区 ---------- */
-  .main {
-    flex: 1;
-    overflow-y: auto;
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-  }
-  /* 内容包装器：控制最大宽度与对齐 */
-  .content-wrapper {
-    width: 100%;
-    transition: max-width 0.3s, margin 0.3s;
-  }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-  /* 页面居中模式：内容区最大宽度固定，并自动居中 */
-  body.layout-center .content-wrapper {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  /* 左侧对齐模式：内容区撑满，紧贴菜单栏 */
-  body.layout-left .content-wrapper {
-    max-width: none;
-    margin: 0;
-  }
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: row;
+            height: 100vh;
+            overflow: hidden;
+            /* 防止 body 滚动，让 sidebar 和 main 各自独立滚动 */
+        }
 
-  /* 文章容器视图模式 */
-  #articles-container.list-view article {
-    display: block;
-  }
-  #articles-container.masonry-view {
-    columns: 2;
-    column-gap: 1rem;
-  }
-  #articles-container.masonry-view article {
-    break-inside: avoid;
-    margin-bottom: 1rem;
-  }
-  #articles-container.grid-view {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 1rem;
-  }
-  #articles-container.grid-view article {
-    margin-bottom: 0;
-  }
+        /* ---------- 侧边栏 ---------- */
+        .sidebar {
+            width: var(--sidebar-width);
+            min-width: var(--sidebar-width);
+            background: var(--ctp-mantle);
+            border-right: 1px solid var(--border);
+            padding: 1.5rem 1rem;
+            height: 100vh;
+            overflow-y: auto;
+            flex-shrink: 0;
+            order: 0;
+            /* 横屏时在左侧（HTML中sidebar在前，order默认0即可） */
+            transition: width 0.3s, min-width 0.3s, border 0.3s, order 0s;
+        }
 
-  header {
-    margin-bottom:2rem;
-    padding-bottom:1rem;
-    border-bottom:1px solid var(--border);
-  }
-  header h1 {
-    font-size:1.5rem;
-    color:var(--ctp-lavender);
-  }
-  header p {
-    color:var(--muted);
-    font-size:0.875rem;
-    margin-top:0.25rem;
-  }
-  article {
-    background:var(--card);
-    border:1px solid var(--border);
-    border-radius:8px;
-    padding:1.25rem;
-    margin-bottom:1rem;
-    transition: border-color 0.2s;
-  }
-  article:hover {
-    border-color:var(--accent);
-  }
-  article h2 {
-    font-size:1.1rem;
-    margin-bottom:0.25rem;
-  }
-  article h2 a {
-    color:var(--accent);
-    text-decoration:none;
-  }
-  article h2 a:hover {
-    text-decoration:underline;
-  }
-  .meta {
-    font-size:0.8rem;
-    color:var(--muted);
-    margin-bottom:0.75rem;
-  }
-  .meta span {
-    margin-right:0.75rem;
-  }
-  .summary {
-    font-size:0.9rem;
-    color:var(--text);
-    margin-bottom:0.5rem;
-  }
-  .content {
-    font-size:0.85rem;
-    color:var(--muted);
-    max-height:12em;
-    overflow:hidden;
-    position:relative;
-  }
-  .content::after {
-    content:'';
-    position:absolute;
-    bottom:0;
-    left:0;
-    right:0;
-    height:3em;
-    background:linear-gradient(transparent, var(--card));
-  }
-  .empty {
-    text-align:center;
-    padding:3rem;
-    color:var(--muted);
-  }
-  footer {
-    margin-top:3rem;
-    text-align:center;
-    font-size:0.75rem;
-    color:var(--muted);
-  }
-  footer a { color:var(--accent); }
+        .sidebar h2 {
+            font-size: 1.2rem;
+            color: var(--ctp-lavender);
+            margin-bottom: 0.75rem;
+            white-space: nowrap;
+        }
 
-  @media (max-width: 768px) {
-    body {
-      flex-direction: column;
-    }
-    .sidebar {
-      position: relative;
-      width: 100%;
-      min-width: 100%;
-      height: auto;
-      border-right: none;
-      border-bottom: 1px solid var(--border);
-    }
-    .content-wrapper {
-      max-width: none !important;
-      margin: 0 !important;
-    }
-    #articles-container.masonry-view { columns: 1; }
-  }
-</style>
+        .appearance-panel {
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 0.75rem;
+            margin-bottom: 0.75rem;
+        }
+        .appearance-panel .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.5rem;
+            gap: 4px;
+            flex-wrap: wrap;
+        }
+        .appearance-panel label {
+            font-size: 0.75rem;
+            color: var(--muted);
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+        .appearance-panel .btn-group {
+            display: flex;
+            gap: 2px;
+            flex-shrink: 0;
+        }
+        .appearance-panel button {
+            background: var(--card);
+            border: 1px solid var(--border);
+            color: var(--text);
+            padding: 0.2rem 0.5rem;
+            font-size: 0.7rem;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.2s;
+            white-space: nowrap;
+        }
+        .appearance-panel button.active {
+            background: var(--accent);
+            color: var(--ctp-crust);
+            border-color: var(--accent);
+        }
+        .source-tree {
+            margin-top: 0.5rem;
+        }
+        .source-tree details {
+            margin-bottom: 0.25rem;
+        }
+        .source-tree summary {
+            font-size: 0.85rem;
+            color: var(--ctp-lavender);
+            cursor: pointer;
+            padding: 0.2rem 0;
+            outline: none;
+            white-space: nowrap;
+        }
+        .source-tree .source-item {
+            display: flex;
+            align-items: center;
+            padding-left: 1rem;
+            font-size: 0.8rem;
+            margin-bottom: 0.25rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .source-item input[type="checkbox"] {
+            margin-right: 0.5rem;
+            accent-color: var(--accent);
+            flex-shrink: 0;
+        }
+        .source-item label {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            cursor: pointer;
+        }
+        .tools {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid var(--border);
+            flex-wrap: wrap;
+        }
+        .tools button {
+            background: var(--card);
+            border: 1px solid var(--border);
+            color: var(--text);
+            padding: 0.25rem 0.6rem;
+            font-size: 0.75rem;
+            border-radius: 4px;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+        .tools button:hover {
+            background: var(--border);
+        }
+
+        /* ---------- 主内容区 ---------- */
+        .main {
+            flex: 1;
+            overflow-y: auto;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            order: 1;
+            /* 横屏时在右侧 */
+            height: 100vh;
+            transition: order 0s;
+        }
+
+        /* 内容包装器：控制最大宽度与对齐 */
+        .content-wrapper {
+            width: 100%;
+            transition: max-width 0.3s, margin 0.3s;
+        }
+
+        /* 页面居中模式 */
+        body.layout-center .content-wrapper {
+            max-width: 750px;
+            /* 列表模式默认单列宽度 */
+            margin: 0 auto;
+        }
+        /* 两列模式下的居中宽度（由 JS 动态调整，此处为默认） */
+        body.layout-center .content-wrapper.multi-col {
+            max-width: 1050px;
+        }
+        /* 左侧对齐模式 */
+        body.layout-left .content-wrapper {
+            max-width: none;
+            margin: 0;
+        }
+
+        /* 文章容器视图模式 */
+        #articles-container.list-view article {
+            display: block;
+        }
+        #articles-container.masonry-view {
+            columns: 2;
+            column-gap: 1rem;
+        }
+        #articles-container.masonry-view article {
+            break-inside: avoid;
+            margin-bottom: 1rem;
+        }
+        #articles-container.grid-view {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+        #articles-container.grid-view article {
+            margin-bottom: 0;
+        }
+
+        /* 居中模式下网格固定两列 */
+        body.layout-center #articles-container.grid-view {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        /* 居中模式下瀑布流保持两列 */
+        body.layout-center #articles-container.masonry-view {
+            columns: 2;
+        }
+
+        /* 极窄内容区时回退单列 */
+        @media (max-width: 600px) {
+            body.layout-center #articles-container.grid-view {
+                grid-template-columns: 1fr;
+            }
+            body.layout-center #articles-container.masonry-view {
+                columns: 1;
+            }
+        }
+
+        header {
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border);
+        }
+        header h1 {
+            font-size: 1.5rem;
+            color: var(--ctp-lavender);
+        }
+        header p {
+            color: var(--muted);
+            font-size: 0.875rem;
+            margin-top: 0.25rem;
+        }
+        article {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-bottom: 1rem;
+            transition: border-color 0.2s;
+        }
+        article:hover {
+            border-color: var(--accent);
+        }
+        article h2 {
+            font-size: 1.1rem;
+            margin-bottom: 0.25rem;
+        }
+        article h2 a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        article h2 a:hover {
+            text-decoration: underline;
+        }
+        .meta {
+            font-size: 0.8rem;
+            color: var(--muted);
+            margin-bottom: 0.75rem;
+        }
+        .meta span {
+            margin-right: 0.75rem;
+        }
+        .summary {
+            font-size: 0.9rem;
+            color: var(--text);
+            margin-bottom: 0.5rem;
+        }
+        .content {
+            font-size: 0.85rem;
+            color: var(--muted);
+            max-height: 12em;
+            overflow: hidden;
+            position: relative;
+        }
+        .content::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 3em;
+            background: linear-gradient(transparent, var(--card));
+        }
+        .empty {
+            text-align: center;
+            padding: 3rem;
+            color: var(--muted);
+        }
+        footer {
+            margin-top: 3rem;
+            text-align: center;
+            font-size: 0.75rem;
+            color: var(--muted);
+        }
+        footer a {
+            color: var(--accent);
+        }
+
+        /* ---------- 响应式：竖屏（≤768px）菜单栏在右侧 ---------- */
+        @media (max-width: 768px) {
+            body {
+                flex-direction: row;
+                /* 保持并排 */
+                height: 100vh;
+                overflow: hidden;
+            }
+
+            .sidebar {
+                width: var(--sidebar-width-narrow);
+                min-width: var(--sidebar-width-narrow);
+                order: 2;
+                /* 移到右侧 */
+                border-right: none;
+                border-left: 1px solid var(--border);
+                /* 边框在左侧（因为sidebar在右） */
+                padding: 1rem 0.6rem;
+                height: 100vh;
+                overflow-y: auto;
+                flex-shrink: 0;
+            }
+
+            .sidebar h2 {
+                font-size: 0.9rem;
+                margin-bottom: 0.5rem;
+            }
+            .appearance-panel {
+                padding-bottom: 0.5rem;
+                margin-bottom: 0.5rem;
+            }
+            .appearance-panel .row {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 3px;
+            }
+            .appearance-panel label {
+                font-size: 0.65rem;
+            }
+            .appearance-panel button {
+                padding: 0.15rem 0.35rem;
+                font-size: 0.6rem;
+            }
+            .source-tree summary {
+                font-size: 0.7rem;
+            }
+            .source-tree .source-item {
+                font-size: 0.65rem;
+                padding-left: 0.4rem;
+            }
+            .tools {
+                gap: 0.3rem;
+                margin-top: 0.5rem;
+                padding-top: 0.5rem;
+            }
+            .tools button {
+                font-size: 0.6rem;
+                padding: 0.2rem 0.4rem;
+            }
+
+            .main {
+                order: 1;
+                /* 主内容在左侧 */
+                padding: 1rem 0.8rem;
+                height: 100vh;
+                overflow-y: auto;
+            }
+
+            /* 竖屏下居中模式自动失效（内容区太窄），强制撑满 */
+            body.layout-center .content-wrapper {
+                max-width: none !important;
+                margin: 0 !important;
+            }
+            body.layout-center #articles-container.grid-view {
+                grid-template-columns: 1fr;
+            }
+            body.layout-center #articles-container.masonry-view {
+                columns: 1;
+            }
+        }
+
+        /* 极小屏幕进一步缩小侧边栏 */
+        @media (max-width: 400px) {
+            :root {
+                --sidebar-width-narrow: 140px;
+            }
+            .sidebar {
+                padding: 0.6rem 0.4rem;
+            }
+            .sidebar h2 {
+                font-size: 0.75rem;
+            }
+            .appearance-panel button {
+                padding: 0.12rem 0.3rem;
+                font-size: 0.55rem;
+            }
+            .source-tree summary {
+                font-size: 0.65rem;
+            }
+            .source-tree .source-item {
+                font-size: 0.6rem;
+            }
+            .tools button {
+                font-size: 0.55rem;
+                padding: 0.15rem 0.3rem;
+            }
+            .main {
+                padding: 0.6rem 0.5rem;
+            }
+            article {
+                padding: 0.8rem;
+            }
+        }
+    </style>
 </head>
 <body class="layout-center">
-<div class="sidebar">
-  <h2>RSS 源</h2>
+    <div class="sidebar">
+        <h2>RSS 源</h2>
 
-  <!-- 外观配置 -->
-  <div class="appearance-panel">
-    <div class="row">
-      <label>页面布局</label>
-      <div class="btn-group" id="alignment-group">
-        <button data-value="center" class="active">居中</button>
-        <button data-value="left">左侧</button>
-      </div>
-    </div>
-    <div class="row">
-      <label>视图</label>
-      <div class="btn-group" id="view-group">
-        <button data-value="list" class="active">列表</button>
-        <button data-value="masonry">瀑布</button>
-        <button data-value="grid">网格</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- 源树（动态构建） -->
-  <div id="source-tree" class="source-tree"></div>
-
-  <div class="tools">
-    <button onclick="selectAll()">全选</button>
-    <button onclick="deselectAll()">反选</button>
-  </div>
-</div>
-
-<main class="main">
-  <div class="content-wrapper">
-    <header>
-      <h1>RSS 阅读器</h1>
-      <p>最近 {{ period }} 小时 · 共 <span id="total-count">{{ count }}</span> 篇 · 生成于 {{ generated_at }}</p>
-    </header>
-    <div id="articles-container" class="list-view">
-      {% for a in articles %}
-      <article class="feed-article" data-source="{{ a.source }}">
-        <h2><a href="{{ a.link or '#' }}" target="_blank" rel="noopener">{{ a.title }}</a></h2>
-        <div class="meta">
-          <span>来源: {{ a.source }}</span>
-          <span>{{ a.published[:16] if a.published else '' }}</span>
+        <!-- 外观配置 -->
+        <div class="appearance-panel">
+            <div class="row">
+                <label>页面布局</label>
+                <div class="btn-group" id="alignment-group">
+                    <button data-value="center" class="active">居中</button>
+                    <button data-value="left">左侧</button>
+                </div>
+            </div>
+            <div class="row">
+                <label>视图</label>
+                <div class="btn-group" id="view-group">
+                    <button data-value="list" class="active">列表</button>
+                    <button data-value="masonry">瀑布</button>
+                    <button data-value="grid">网格</button>
+                </div>
+            </div>
         </div>
-        {% if a.summary %}<div class="summary">{{ a.summary[:300] }}</div>{% endif %}
-        {% if a.content %}<div class="content">{{ a.content[:600] }}</div>{% endif %}
-      </article>
-      {% endfor %}
-      {% if not articles %}
-      <div class="empty" id="empty-msg">暂无最近 {{ period }} 小时的文章</div>
-      {% endif %}
+
+        <!-- 源树（动态构建） -->
+        <div id="source-tree" class="source-tree"></div>
+
+        <div class="tools">
+            <button onclick="selectAll()">全选</button>
+            <button onclick="deselectAll()">反选</button>
+        </div>
     </div>
-    <footer>
-      <p>自动生成 · 每小时更新 · <a href="summary.json">AI 助理端点</a></p>
-    </footer>
-  </div>
-</main>
 
-<script>
-  // ----- 外观偏好持久化 -----
-  (function() {
-    const body = document.body;
-    const alignBtns = document.querySelectorAll('#alignment-group button');
-    const viewBtns = document.querySelectorAll('#view-group button');
-    const container = document.getElementById('articles-container');
+    <main class="main">
+        <div class="content-wrapper">
+            <header>
+                <h1>RSS 阅读器</h1>
+                <p>最近 {{ period }} 小时 · 共 <span id="total-count">{{ count }}</span> 篇 · 生成于 {{ generated_at }}</p>
+            </header>
+            <div id="articles-container" class="list-view">
+                {% for a in articles %}
+                <article class="feed-article" data-source="{{ a.source }}">
+                    <h2><a href="{{ a.link or '#' }}" target="_blank" rel="noopener">{{ a.title }}</a></h2>
+                    <div class="meta">
+                        <span>来源: {{ a.source }}</span>
+                        <span>{{ a.published[:16] if a.published else '' }}</span>
+                    </div>
+                    {% if a.summary %}<div class="summary">{{ a.summary[:300] }}</div>{% endif %}
+                    {% if a.content %}<div class="content">{{ a.content[:600] }}</div>{% endif %}
+                </article>
+                {% endfor %}
+                {% if not articles %}
+                <div class="empty" id="empty-msg">暂无最近 {{ period }} 小时的文章</div>
+                {% endif %}
+            </div>
+            <footer>
+                <p>自动生成 · 每小时更新 · <a href="summary.json">AI 助理端点</a></p>
+            </footer>
+        </div>
+    </main>
 
-    function setActive(group, value) {
-      group.forEach(btn => btn.classList.toggle('active', btn.dataset.value === value));
-    }
+    <script>
+        // ----- 外观偏好持久化 -----
+        (function() {
+            const body = document.body;
+            const alignBtns = document.querySelectorAll('#alignment-group button');
+            const viewBtns = document.querySelectorAll('#view-group button');
+            const container = document.getElementById('articles-container');
+            const contentWrapper = document.querySelector('.content-wrapper');
 
-    // 页面布局
-    const savedAlign = localStorage.getItem('rss-alignment') || 'center';
-    body.classList.add('layout-' + savedAlign);
-    setActive(alignBtns, savedAlign);
-    alignBtns.forEach(btn => btn.addEventListener('click', () => {
-      body.classList.remove('layout-center', 'layout-left');
-      const val = btn.dataset.value;
-      body.classList.add('layout-' + val);
-      setActive(alignBtns, val);
-      localStorage.setItem('rss-alignment', val);
-    }));
+            function setActive(group, value) {
+                group.forEach(btn => btn.classList.toggle('active', btn.dataset.value === value));
+            }
 
-    // 视图模式
-    const savedView = localStorage.getItem('rss-view') || 'list';
-    container.className = savedView + '-view';
-    setActive(viewBtns, savedView);
-    viewBtns.forEach(btn => btn.addEventListener('click', () => {
-      const val = btn.dataset.value;
-      container.className = val + '-view';
-      setActive(viewBtns, val);
-      localStorage.setItem('rss-view', val);
-    }));
-  })();
+            // 更新 content-wrapper 的 max-width（居中模式下根据视图调整）
+            function updateContentWidth(viewMode) {
+                const isCenter = body.classList.contains('layout-center');
+                if (!isCenter) {
+                    contentWrapper.classList.remove('multi-col');
+                    return;
+                }
+                // 列表模式单列（750px），瀑布/网格模式双列（1050px）
+                if (viewMode === 'list') {
+                    contentWrapper.classList.remove('multi-col');
+                } else {
+                    contentWrapper.classList.add('multi-col');
+                }
+                // 在竖屏时（≤768px），CSS 会强制覆盖 max-width，这里无需额外处理
+            }
 
-  // ----- 侧边栏源树构建（从 sources.json） -----
-  fetch('sources.json')
-    .then(res => {
-      if (!res.ok) throw new Error('sources.json 加载失败');
-      return res.json();
-    })
-    .then(sources => {
-      const treeContainer = document.getElementById('source-tree');
-      if (!sources.length) {
-        treeContainer.innerHTML = '<div style="color:var(--muted);">暂无配置源</div>';
-        return;
-      }
+            // 页面布局
+            const savedAlign = localStorage.getItem('rss-alignment') || 'center';
+            body.classList.add('layout-' + savedAlign);
+            setActive(alignBtns, savedAlign);
+            const savedView = localStorage.getItem('rss-view') || 'list';
+            updateContentWidth(savedView);
 
-      function buildTree(nodes, parentEl) {
-        nodes.forEach(node => {
-          if (node.type === 'folder') {
-            const details = document.createElement('details');
-            details.open = true;
-            details.innerHTML = `<summary>${node.name}</summary>`;
-            const innerDiv = document.createElement('div');
-            details.appendChild(innerDiv);
-            buildTree(node.children, innerDiv);
-            parentEl.appendChild(details);
-          } else if (node.type === 'source') {
-            const div = document.createElement('div');
-            div.className = 'source-item';
-            div.innerHTML = `<input type="checkbox" id="src-${node.id}" checked onchange="filterArticles()" data-source="${node.name}">
-                             <label for="src-${node.id}">${node.name}</label>`;
-            parentEl.appendChild(div);
-          }
-        });
-      }
-      buildTree(sources, treeContainer);
-    })
-    .catch(err => {
-      console.warn('侧边栏加载失败:', err);
-      document.getElementById('source-tree').innerHTML = '<div style="color:var(--muted);">源列表加载失败</div>';
-    });
+            alignBtns.forEach(btn => btn.addEventListener('click', () => {
+                body.classList.remove('layout-center', 'layout-left');
+                const val = btn.dataset.value;
+                body.classList.add('layout-' + val);
+                setActive(alignBtns, val);
+                localStorage.setItem('rss-alignment', val);
+                // 更新内容宽度
+                const currentView = container.className.replace('-view', '');
+                updateContentWidth(currentView);
+            }));
 
-  // ----- 文章过滤（按源名称） -----
-  function filterArticles() {
-    const checkboxes = document.querySelectorAll('#source-tree input[type="checkbox"]');
-    const visibleSources = new Set();
-    checkboxes.forEach(cb => { if (cb.checked) visibleSources.add(cb.dataset.source); });
+            // 视图模式
+            container.className = savedView + '-view';
+            setActive(viewBtns, savedView);
+            updateContentWidth(savedView);
 
-    let visibleCount = 0;
-    document.querySelectorAll('.feed-article').forEach(article => {
-      const source = article.dataset.source;
-      if (visibleSources.has(source)) {
-        article.style.display = '';
-        visibleCount++;
-      } else {
-        article.style.display = 'none';
-      }
-    });
-    document.getElementById('total-count').textContent = visibleCount;
-    const emptyMsg = document.getElementById('empty-msg');
-    if (emptyMsg) {
-      emptyMsg.style.display = visibleCount === 0 ? '' : 'none';
-    }
-  }
+            viewBtns.forEach(btn => btn.addEventListener('click', () => {
+                const val = btn.dataset.value;
+                container.className = val + '-view';
+                setActive(viewBtns, val);
+                localStorage.setItem('rss-view', val);
+                updateContentWidth(val);
+            }));
+        })();
 
-  function selectAll() {
-    document.querySelectorAll('#source-tree input[type="checkbox"]').forEach(cb => cb.checked = true);
-    filterArticles();
-  }
-  function deselectAll() {
-    document.querySelectorAll('#source-tree input[type="checkbox"]').forEach(cb => cb.checked = false);
-    filterArticles();
-  }
-</script>
+        // ----- 侧边栏源树构建（从 sources.json） -----
+        fetch('sources.json')
+            .then(res => {
+                if (!res.ok) throw new Error('sources.json 加载失败');
+                return res.json();
+            })
+            .then(sources => {
+                const treeContainer = document.getElementById('source-tree');
+                if (!sources.length) {
+                    treeContainer.innerHTML = '<div style="color:var(--muted);">暂无配置源</div>';
+                    return;
+                }
+
+                function buildTree(nodes, parentEl) {
+                    nodes.forEach(node => {
+                        if (node.type === 'folder') {
+                            const details = document.createElement('details');
+                            details.open = true;
+                            details.innerHTML = `<summary>${node.name}</summary>`;
+                            const innerDiv = document.createElement('div');
+                            details.appendChild(innerDiv);
+                            buildTree(node.children, innerDiv);
+                            parentEl.appendChild(details);
+                        } else if (node.type === 'source') {
+                            const div = document.createElement('div');
+                            div.className = 'source-item';
+                            div.innerHTML =
+                                `<input type="checkbox" id="src-${node.id}" checked onchange="filterArticles()" data-source="${node.name}">
+<label for="src-${node.id}">${node.name}</label>`;
+                            parentEl.appendChild(div);
+                        }
+                    });
+                }
+                buildTree(sources, treeContainer);
+            })
+            .catch(err => {
+                console.warn('侧边栏加载失败:', err);
+                document.getElementById('source-tree').innerHTML =
+                    '<div style="color:var(--muted);">源列表加载失败</div>';
+            });
+
+        // ----- 文章过滤（按源名称） -----
+        function filterArticles() {
+            const checkboxes = document.querySelectorAll('#source-tree input[type="checkbox"]');
+            const visibleSources = new Set();
+            checkboxes.forEach(cb => { if (cb.checked) visibleSources.add(cb.dataset.source); });
+
+            let visibleCount = 0;
+            document.querySelectorAll('.feed-article').forEach(article => {
+                const source = article.dataset.source;
+                if (visibleSources.has(source)) {
+                    article.style.display = '';
+                    visibleCount++;
+                } else {
+                    article.style.display = 'none';
+                }
+            });
+            document.getElementById('total-count').textContent = visibleCount;
+            const emptyMsg = document.getElementById('empty-msg');
+            if (emptyMsg) {
+                emptyMsg.style.display = visibleCount === 0 ? '' : 'none';
+            }
+        }
+
+        function selectAll() {
+            document.querySelectorAll('#source-tree input[type="checkbox"]').forEach(cb => cb.checked = true);
+            filterArticles();
+        }
+
+        function deselectAll() {
+            document.querySelectorAll('#source-tree input[type="checkbox"]').forEach(cb => cb.checked = false);
+            filterArticles();
+        }
+    </script>
 </body>
 </html>
