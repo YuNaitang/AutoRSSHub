@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+"""RSS 抓取：从 sources.opml 读取（支持嵌套分类） > 解析 > 去重 > 全文拉取 > 存入 articles.json"""
+
 import hashlib
 import json
 import os
@@ -12,7 +14,6 @@ import feedparser
 import trafilatura
 from dateutil import parser as dateparser
 
-# ---- 路径 ----
 ROOT = Path(__file__).resolve().parent.parent
 SOURCES_FILE = ROOT / "sources.opml"
 DATA_DIR = ROOT / "data"
@@ -52,7 +53,7 @@ def save_articles(articles: dict):
 
 
 def load_sources() -> list[dict]:
-    """从 sources.opml 解析出 (name, url) 列表，并验证"""
+    """递归解析 sources.opml，返回所有 RSS 源（扁平列表，带分类路径）"""
     if not SOURCES_FILE.exists():
         print(f"[ERROR] 未找到 {SOURCES_FILE}，请先创建 OPML 文件")
         sys.exit(1)
@@ -65,14 +66,35 @@ def load_sources() -> list[dict]:
         sys.exit(1)
 
     sources = []
-    for outline in root.iter("outline"):
-        title = outline.get("title") or outline.get("text") or "未命名源"
-        xml_url = outline.get("xmlUrl")
+
+    def walk(node, category=""):
+        # 节点的 text/title 可作为分类名或源名
+        title = node.get("title") or node.get("text") or ""
+        xml_url = node.get("xmlUrl")
         if xml_url:
-            sources.append({"name": title.strip(), "url": xml_url.strip()})
+            # 这是一个叶子源
+            name = title.strip() or xml_url.split("//")[-1].split("/")[0]
+            sources.append({
+                "name": name,
+                "url": xml_url.strip(),
+                "category": category
+            })
+        else:
+            # 可能是分类文件夹，继续递归子节点，标题作为新分类
+            new_category = title.strip() if title.strip() else category
+            for child in node.findall("outline"):
+                walk(child, new_category)
+
+    # 从 body 的直接子 outline 开始
+    body = root.find("body")
+    if body is not None:
+        for outline in body.findall("outline"):
+            walk(outline)
+    else:
+        print("[WARN] OPML 缺少 <body> 节点")
 
     if not sources:
-        print("[ERROR] OPML 中未找到任何有效的 outline (需包含 xmlUrl)")
+        print("[ERROR] OPML 中未找到任何有效 RSS 源 (需要 xmlUrl)")
         sys.exit(1)
 
     print(f"[INFO] 从 OPML 加载 {len(sources)} 个源")
@@ -133,7 +155,8 @@ def main():
     for src in sources:
         name = src["name"]
         url = src["url"]
-        print(f"\n--- {name} ({url}) ---")
+        category = src.get("category", "")
+        print(f"\n--- {name} ({url})" + (f" [分类: {category}]" if category else ""))
         try:
             feed = feedparser.parse(url)
         except Exception as e:
@@ -164,8 +187,9 @@ def main():
             article = {
                 "title": title,
                 "link": link,
-                "source": name,           # 使用 OPML 中的名称作为来源
-                "source_url": url,        # 保留原始 URL 方便识别
+                "source": name,           # 显示用名称
+                "source_url": url,
+                "category": category,     # 所属分类
                 "published": published_dt.isoformat(),
                 "summary": summary,
                 "content": full_text or summary,

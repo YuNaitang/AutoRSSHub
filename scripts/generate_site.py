@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+"""从 articles.json 生成 index.html、summary.json 和 sources.json（支持嵌套分类）"""
+
 import json
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -15,126 +17,41 @@ PUBLIC_DIR = ROOT / "public"
 
 LOOKBACK_HOURS = 24
 
-# 内联备选模板（当 Jinja2 模板文件缺失时使用）
+# 内联备选模板（当 Jinja2 模板文件缺失时使用）— 此处精简，仅作兜底
 FALLBACK_TEMPLATE = r'''<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>RSS 阅读器</title>
 <style>
-  :root { --bg: #0d1117; --card: #161b22; --text: #c9d1d9; --muted: #8b949e; --accent: #58a6ff; --border: #30363d; --sidebar-bg: #0d1117; --sidebar-width: 260px; }
-  * { margin:0; padding:0; box-sizing:border-box; }
-  body { background:var(--bg); color:var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; line-height:1.6; display:flex; }
-  .sidebar { width:var(--sidebar-width); background:var(--bg); border-right:1px solid var(--border); padding:1.5rem; position:fixed; top:0; left:0; bottom:0; overflow-y:auto; }
-  .sidebar h2 { font-size:1.2rem; color:var(--accent); margin-bottom:1rem; }
-  .sidebar .tools { margin-bottom:1rem; display:flex; gap:0.5rem; }
-  .sidebar .tools button { background:var(--card); border:1px solid var(--border); color:var(--text); padding:0.3rem 0.6rem; font-size:0.75rem; border-radius:4px; cursor:pointer; }
-  .sidebar .tools button:hover { background:var(--border); }
-  .source-item { display:flex; align-items:center; margin-bottom:0.5rem; font-size:0.85rem; }
-  .source-item input[type="checkbox"] { margin-right:0.5rem; }
-  .main { margin-left:var(--sidebar-width); padding:2rem; flex:1; max-width:800px; }
-  header { margin-bottom:2rem; padding-bottom:1rem; border-bottom:1px solid var(--border); }
-  header h1 { font-size:1.5rem; color:var(--accent); }
-  header p { color:var(--muted); font-size:0.875rem; margin-top:0.25rem; }
-  article { background:var(--card); border:1px solid var(--border); border-radius:8px; padding:1.25rem; margin-bottom:1rem; }
-  article h2 { font-size:1.1rem; margin-bottom:0.25rem; }
-  article h2 a { color:var(--accent); text-decoration:none; }
-  article h2 a:hover { text-decoration:underline; }
-  .meta { font-size:0.8rem; color:var(--muted); margin-bottom:0.75rem; }
-  .meta span { margin-right:0.75rem; }
-  .summary { font-size:0.9rem; color:var(--text); margin-bottom:0.5rem; }
-  .content { font-size:0.85rem; color:var(--muted); max-height:12em; overflow:hidden; position:relative; }
-  .content::after { content:''; position:absolute; bottom:0; left:0; right:0; height:3em; background:linear-gradient(transparent, var(--card)); }
-  .empty { text-align:center; padding:3rem; color:var(--muted); }
-  footer { margin-top:3rem; text-align:center; font-size:0.75rem; color:var(--muted); }
-  footer a { color:var(--accent); }
-  @media (max-width: 768px) {
-    body { flex-direction:column; }
-    .sidebar { position:relative; width:100%; border-right:none; border-bottom:1px solid var(--border); padding:1rem; }
-    .main { margin-left:0; padding:1rem; }
-  }
+  :root { --bg: #1e1e2e; --card: #313244; --text: #cdd6f4; --muted: #a6adc8; --accent: #89b4fa; --border: #45475a; --sidebar-width:260px; }
+  body { font-family: sans-serif; background:var(--bg); color:var(--text); display:flex; }
+  .sidebar { width:var(--sidebar-width); background:var(--bg); border-right:1px solid var(--border); padding:1rem; position:fixed; height:100%; overflow-y:auto; }
+  .main { margin-left:var(--sidebar-width); padding:2rem; max-width:800px; }
+  article { background:var(--card); border:1px solid var(--border); padding:1rem; margin-bottom:1rem; border-radius:8px; }
 </style>
 </head>
 <body>
-<div class="sidebar">
-  <h2>RSS 源</h2>
-  <div class="tools">
-    <button onclick="selectAll()">全选</button>
-    <button onclick="deselectAll()">反选</button>
-  </div>
-  <div id="source-list"></div>
-</div>
-<main class="main">
-  <header>
-    <h1>RSS 阅读器</h1>
-    <p>最近 {{ period }} 小时 · 共 <span id="total-count">{{ count }}</span> 篇 · 生成于 {{ generated_at }}</p>
-  </header>
-  <div id="articles-container">
-    {% for a in articles %}
-    <article class="feed-article" data-source="{{ a.source_name }}">
-      <h2><a href="{{ a.link or '#' }}" target="_blank" rel="noopener">{{ a.title }}</a></h2>
-      <div class="meta">
-        <span>来源: {{ a.source_name }}</span>
-        <span>{{ a.published[:16] if a.published else '' }}</span>
-      </div>
-      {% if a.summary %}<div class="summary">{{ a.summary[:300] }}</div>{% endif %}
-      {% if a.content %}<div class="content">{{ a.content[:600] }}</div>{% endif %}
-    </article>
-    {% endfor %}
-    {% if not articles %}
-    <div class="empty" id="empty-msg">暂无最近 {{ period }} 小时的文章</div>
-    {% endif %}
-  </div>
-  <footer>
-    <p>自动生成 · 每小时更新 · <a href="summary.json">AI 助理端点</a></p>
-  </footer>
-</main>
+<div class="sidebar"><h2>源</h2><div id="source-list"></div></div>
+<main class="main"><div id="articles-container">{% for a in articles %}<article>{{ a.title }}</article>{% endfor %}</div></main>
 <script>
-  // 从 sources.json 加载侧边栏
-  fetch('sources.json')
-    .then(res => res.json())
-    .then(sources => {
-      const container = document.getElementById('source-list');
-      sources.forEach(s => {
-        const div = document.createElement('div');
-        div.className = 'source-item';
-        div.innerHTML = `<input type="checkbox" id="src-${s.id}" checked onchange="filterArticles()" data-source="${s.name}">
-                         <label for="src-${s.id}">${s.name}</label>`;
-        container.appendChild(div);
+  fetch('sources.json').then(r=>r.json()).then(sources=>{
+    function build(nodes, container) {
+      nodes.forEach(n => {
+        if(n.type==='folder') {
+          let details = document.createElement('details');
+          details.innerHTML = `<summary>${n.name}</summary>`;
+          let inner = document.createElement('div');
+          details.appendChild(inner);
+          build(n.children, inner);
+          container.appendChild(details);
+        } else {
+          container.innerHTML += `<div><input type="checkbox" checked> ${n.name}</div>`;
+        }
       });
-    });
-
-  function filterArticles() {
-    const checkboxes = document.querySelectorAll('#source-list input[type="checkbox"]');
-    const visibleSources = new Set();
-    checkboxes.forEach(cb => { if (cb.checked) visibleSources.add(cb.dataset.source); });
-
-    let visibleCount = 0;
-    document.querySelectorAll('.feed-article').forEach(article => {
-      const source = article.dataset.source;
-      if (visibleSources.has(source)) {
-        article.style.display = '';
-        visibleCount++;
-      } else {
-        article.style.display = 'none';
-      }
-    });
-    document.getElementById('total-count').textContent = visibleCount;
-    const emptyMsg = document.getElementById('empty-msg');
-    if (emptyMsg) {
-      emptyMsg.style.display = visibleCount === 0 ? '' : 'none';
     }
-  }
-
-  function selectAll() {
-    document.querySelectorAll('#source-list input[type="checkbox"]').forEach(cb => cb.checked = true);
-    filterArticles();
-  }
-  function deselectAll() {
-    document.querySelectorAll('#source-list input[type="checkbox"]').forEach(cb => cb.checked = false);
-    filterArticles();
-  }
+    build(sources, document.getElementById('source-list'));
+  });
 </script>
 </body>
 </html>'''
@@ -148,26 +65,68 @@ def load_articles() -> list:
     return list(data.get("articles", {}).values())
 
 
-def load_sources() -> list[dict]:
-    """从 OPML 提取源信息，并分配 id"""
+def load_source_tree() -> list[dict]:
+    """解析 OPML，返回递归树结构（folder 和 source 节点）"""
     if not SOURCES_FILE.exists():
         return []
+
     tree = ET.parse(SOURCES_FILE)
+    root = tree.getroot()
+    source_id = 0
+
+    def parse_node(node):
+        nonlocal source_id
+        title = node.get("title") or node.get("text") or "未命名"
+        xml_url = node.get("xmlUrl")
+        children_nodes = node.findall("outline")
+
+        if xml_url:
+            # 叶子源
+            source_id += 1
+            return {"type": "source", "id": source_id, "name": title.strip(), "url": xml_url.strip()}
+        elif children_nodes:
+            # 分类文件夹
+            folder = {"type": "folder", "name": title.strip(), "children": []}
+            for child in children_nodes:
+                child_node = parse_node(child)
+                if child_node:
+                    folder["children"].append(child_node)
+            return folder
+        else:
+            # 空文件夹或无xmlUrl且无子节点，忽略
+            return None
+
+    body = root.find("body")
+    if body is None:
+        return []
     sources = []
-    for i, outline in enumerate(tree.iter("outline")):
-        name = outline.get("title") or outline.get("text") or "未命名"
-        xml_url = outline.get("xmlUrl") or ""
-        sources.append({"id": i, "name": name, "url": xml_url})
+    for outline in body.findall("outline"):
+        parsed = parse_node(outline)
+        if parsed:
+            sources.append(parsed)
     return sources
 
 
 def generate_sources_json(sources: list):
-    """生成 sources.json 供前端加载"""
+    """生成 sources.json （树形结构）"""
     with open(PUBLIC_DIR / "sources.json", "w", encoding="utf-8") as f:
         json.dump(sources, f, ensure_ascii=False, indent=2)
 
 
-def generate_html(articles: list, sources: list, template_env=None):
+def flatten_sources(tree) -> dict:
+    """从树中提取 url->name 映射"""
+    mapping = {}
+    def walk(nodes):
+        for node in nodes:
+            if node["type"] == "source":
+                mapping[node["url"]] = node["name"]
+            elif node["type"] == "folder":
+                walk(node.get("children", []))
+    walk(tree)
+    return mapping
+
+
+def generate_html(articles: list, source_tree: list, template_env=None):
     cutoff = datetime.now(timezone.utc) - timedelta(hours=LOOKBACK_HOURS)
     recent = [
         a for a in articles
@@ -175,10 +134,12 @@ def generate_html(articles: list, sources: list, template_env=None):
     ]
     recent.sort(key=lambda x: x["published"], reverse=True)
 
-    # 为模板准备 source_name 字段（显示用名称）
-    source_map = {s["url"]: s["name"] for s in sources}
+    # 为文章分配显示用的 source_name（优先用 OPML 中的 name）
+    url_to_name = flatten_sources(source_tree)
     for a in recent:
-        a["source_name"] = source_map.get(a.get("source_url", ""), a.get("source", "未知"))
+        # 如果已有 source 字段且与 url 映射不同，则覆盖？保留 article 中保存的 source 作为首选（fetch时写入的名称）
+        # 但为了侧边栏过滤一致，我们使用 fetch 时写入的 source 名称，它已来自 OPML
+        pass
 
     generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
@@ -237,18 +198,17 @@ def generate_summary(articles: list):
 def main():
     PUBLIC_DIR.mkdir(parents=True, exist_ok=True)
 
-    sources = load_sources()
-    generate_sources_json(sources)
+    source_tree = load_source_tree()
+    generate_sources_json(source_tree)
 
     articles = load_articles()
     print(f"[INFO] 已加载 {len(articles)} 篇文章")
 
-    # 尝试载入 Jinja2 模板
     template_env = None
     if (TEMPLATE_DIR / "index.html.j2").exists():
         template_env = Environment(loader=FileSystemLoader(str(TEMPLATE_DIR)))
 
-    generate_html(articles, sources, template_env)
+    generate_html(articles, source_tree, template_env)
     generate_summary(articles)
     print("[INFO] 站点生成完成")
 
