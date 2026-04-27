@@ -1,0 +1,943 @@
+{
+  "generated_at": "2026-04-27T21:52:44.600648+00:00",
+  "period_hours": 24,
+  "total_articles": 104,
+  "articles": [
+    {
+      "title": "苹果 watchOS 26.5 开发者预览版 Beta 4 发布",
+      "link": "https://www.ithome.com/0/944/202.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T17:47:24+00:00",
+      "summary": "<p style=\"text-align: center;\"> 【<a href=\"https://www.ithome.com/rss#profile-download\">点此直达升级教程</a>】 </p><p> IT之家 4 月 28 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 26.5 开发者预览版 Beta 4 更新（内部版本号：23T5568a），本次更新距离上次发布 Beta/RC 间隔 7 天。</p> <p style=\"text-align: center;\"> <img alt=\"苹果 watchOS26 操作系统\" src=\"https://",
+      "content_preview": "<p style=\"text-align: center;\"> 【<a href=\"https://www.ithome.com/rss#profile-download\">点此直达升级教程</a>】 </p><p> IT之家 4 月 28 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 26.5 开发者预览版 Beta 4 更新（内部版本号：23T5568a），本次更新距离上次发布 Beta/RC 间隔 7 天。</p> <p style=\"text-align: center;\"> <img alt=\"苹果 watchOS26 操作系统\" src=\"https://img.ithome.com/newsuploadfiles/2025/12/1a5f474f-41a2-4962-a5a9-6b3780e56fde.jpg?x-bce-process=image/watermark,image_aW1nL3dhdGVybWFyay9xdy9xdzEzOC5wbmc=,g_7,x_14,y_14,a_0,t_100\" /> </p> <h2 class=\"ai-"
+    },
+    {
+      "title": "苹果 visionOS 26.5 开发者预览版 Beta 4 发布",
+      "link": "https://www.ithome.com/0/944/201.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T17:47:24+00:00",
+      "summary": "<p> IT之家 4 月 28 日消息，苹果今日向 Vision Pro 用户推送了 visionOS 26.5 开发者预览版 Beta 4 更新（内部版本号：23O5468a），本次更新距离上次发布 Beta/RC 间隔 7 天。</p> <p style=\"text-align: center;\"> <img alt=\"苹果 visionOS26 操作系统\" src=\"https://img.ithome.com/newsuploadfiles/2025/12/52e4bfc0-4db6-462f-a835-3316bc0d1927.jpg?x-bce-process=image/form",
+      "content_preview": "<p> IT之家 4 月 28 日消息，苹果今日向 Vision Pro 用户推送了 visionOS 26.5 开发者预览版 Beta 4 更新（内部版本号：23O5468a），本次更新距离上次发布 Beta/RC 间隔 7 天。</p> <p style=\"text-align: center;\"> <img alt=\"苹果 visionOS26 操作系统\" src=\"https://img.ithome.com/newsuploadfiles/2025/12/52e4bfc0-4db6-462f-a835-3316bc0d1927.jpg?x-bce-process=image/format,f_auto\" /> </p><p> 需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。</p><p> 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。</p> <h3>附 visionOS 26 发布历史：</h3> <ul class=\"custom_reference\"> <li><p><a class=\"bre"
+    },
+    {
+      "title": "苹果 macOS 26.5 开发者预览版 Beta 4 发布",
+      "link": "https://www.ithome.com/0/944/200.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T17:47:23+00:00",
+      "summary": "<p> IT之家 4 月 28 日消息，苹果今日向 Mac 电脑用户推送了 macOS 26.5 开发者预览版 Beta 4 更新（内部版本号：25F5068a），本次更新距离上次发布 Beta/RC 间隔 7 天。</p> <p style=\"text-align: center;\"> <img alt=\"苹果 macOS26 操作系统\" src=\"https://img.ithome.com/newsuploadfiles/2025/12/a7f18aa0-8a31-4d67-965a-febba272993f.jpg?x-bce-process=image/watermark,image",
+      "content_preview": "<p> IT之家 4 月 28 日消息，苹果今日向 Mac 电脑用户推送了 macOS 26.5 开发者预览版 Beta 4 更新（内部版本号：25F5068a），本次更新距离上次发布 Beta/RC 间隔 7 天。</p> <p style=\"text-align: center;\"> <img alt=\"苹果 macOS26 操作系统\" src=\"https://img.ithome.com/newsuploadfiles/2025/12/a7f18aa0-8a31-4d67-965a-febba272993f.jpg?x-bce-process=image/watermark,image_aW1nL3dhdGVybWFyay9xdy9xdzEzOC5wbmc=,g_7,x_14,y_14,a_0,t_100\" /> </p> <h2 class=\"ai-word-checked\" id=\"profile-download\">如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？</h2><p>• <strong>公开测试版</strong>：需注"
+    },
+    {
+      "title": "苹果 iOS/iPadOS 26.5 开发者预览版 Beta 4 发布",
+      "link": "https://www.ithome.com/0/944/199.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T17:47:23+00:00",
+      "summary": "<p style=\"text-align: center;\"> 【<a href=\"https://www.ithome.com/rss#profile-download\">点此直达升级教程</a>】 </p><p> IT之家 4 月 28 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS/iPadOS 26.5 开发者预览版 Beta 4 更新（内部版本号：23F5069b），本次更新距离上次发布 Beta/RC 间隔 7 天。</p> <p style=\"text-align: center;\"> <img alt=\"苹果 iOS 26 操作系统\" src=\"https:",
+      "content_preview": "<p style=\"text-align: center;\"> 【<a href=\"https://www.ithome.com/rss#profile-download\">点此直达升级教程</a>】 </p><p> IT之家 4 月 28 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS/iPadOS 26.5 开发者预览版 Beta 4 更新（内部版本号：23F5069b），本次更新距离上次发布 Beta/RC 间隔 7 天。</p> <p style=\"text-align: center;\"> <img alt=\"苹果 iOS 26 操作系统\" src=\"https://img.ithome.com/newsuploadfiles/2025/12/d0e15ea8-5fc4-406b-a093-9f0f02aee587.jpg?x-bce-process=image/watermark,image_aW1nL3dhdGVybWFyay9xdy9xdzEzOC5wbmc=,g_7,x_14,y_14,a_0,t_100\" /> </p> <h2 class=\"a"
+    },
+    {
+      "title": "最前线｜爱芯元智仇肖莘：大算力芯片将成为企业明年的主要增长引擎",
+      "link": "https://36kr.com/p/3784806758243587?f=rss",
+      "source": "36氪",
+      "source_url": "https://www.36kr.com/feed",
+      "published": "2026-04-27T16:27:19+00:00",
+      "summary": "<p>在汽车行业越来越强调降本的今天，车企心中的天平逐渐偏向了更具性价比的国产芯片。爱芯元智看到了这一发展机遇，北京车展前期，爱芯元智与千里科技、阶跃星辰等企业成立“千里联盟”，同时企业将于今年三季度发布M97这颗大算力辅助驾驶芯片。</p>\n  <p>爱芯元智创始人仇肖莘在北京车展上公开表示，“大算力产品已成功流片，正进入正常的开发周期”，2026年将逐步导入多款车型，成为业绩增长的重要引擎。目前，传统终端计算产品仍占爱芯元智收入的超80%，车载和边缘计算业务的收入占比较低，仇肖莘预计未来三年内，这一局面将被改写。</p>\n  <p>仇肖莘对M97的性能表现颇为信心，她表示：“当前主流高阶辅",
+      "content_preview": "<p>在汽车行业越来越强调降本的今天，车企心中的天平逐渐偏向了更具性价比的国产芯片。爱芯元智看到了这一发展机遇，北京车展前期，爱芯元智与千里科技、阶跃星辰等企业成立“千里联盟”，同时企业将于今年三季度发布M97这颗大算力辅助驾驶芯片。</p>\n  <p>爱芯元智创始人仇肖莘在北京车展上公开表示，“大算力产品已成功流片，正进入正常的开发周期”，2026年将逐步导入多款车型，成为业绩增长的重要引擎。目前，传统终端计算产品仍占爱芯元智收入的超80%，车载和边缘计算业务的收入占比较低，仇肖莘预计未来三年内，这一局面将被改写。</p>\n  <p>仇肖莘对M97的性能表现颇为信心，她表示：“当前主流高阶辅助驾驶芯片有比较大的问题，就是带宽不够。我们意识到这个问题后，在M97设计的时候，把带宽提升了很多。”</p>\n  <p>辅助驾驶芯片的有效算力由两个因素决定，一是计算单元的数量，另一个就是带宽，也就是读写数据是否足够快。“即便是2000T的算力，如果DDR带宽不够，芯片也发挥不出来2000T的作用。我们的芯片一个非常大的优势就是DDR带宽非常高，可以把算力充分发挥出来，同时，我们的芯片功耗控制的"
+    },
+    {
+      "title": "奥迪在美召回近 2 万辆 e-tron 纯电 SUV：制动存在严重问题，踏板可能脱落",
+      "link": "https://www.ithome.com/0/944/198.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T15:36:13+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，据外媒 insideevs 今晚报道，奥迪将在美国召回 18853 辆 e-tron 电动 SUV。召回原因相当严重：制动踏板<strong>可能从制动助力器上脱开</strong>，导致车辆的行车制动无法正常工作。</p><p>美国国家公路交通安全管理局发布的文件并没有要求车主“禁止驾驶”。文件给出的建议是，如果驾驶员<strong>发现踩下制动踏板没有反应，应使用应急制动把车停下来</strong>。</p><p>据IT之家了解，此次召回涉及 <strong>14102 辆 2019 至 2024 款 e-tron</strong>，以及 4751 辆",
+      "content_preview": "<p>IT之家 4 月 27 日消息，据外媒 insideevs 今晚报道，奥迪将在美国召回 18853 辆 e-tron 电动 SUV。召回原因相当严重：制动踏板<strong>可能从制动助力器上脱开</strong>，导致车辆的行车制动无法正常工作。</p><p>美国国家公路交通安全管理局发布的文件并没有要求车主“禁止驾驶”。文件给出的建议是，如果驾驶员<strong>发现踩下制动踏板没有反应，应使用应急制动把车停下来</strong>。</p><p>据IT之家了解，此次召回涉及 <strong>14102 辆 2019 至 2024 款 e-tron</strong>，以及 4751 辆 2020 至 2025 款 e-tron Sportback。e-tron 几年前已经更名为 Q8 e-tron，目前已不再销售。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/4/936af172-3b0e-43f9-bc22-"
+    },
+    {
+      "title": "三星 Galaxy Glasses 智能眼镜外观曝光：骁龙 AR1 处理器，无屏设计",
+      "link": "https://www.ithome.com/0/944/197.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T15:19:38+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，科技媒体 Android Headlines 今日发布博文，曝光三星 Galaxy Glasses 的外观渲染图。</p><p>据报道，这款产品外观看起来与 Meta Ray-Ban、谷歌 Gemini 眼镜没有太大区别，运行 Android XR 操作系统。内部开发代号“Jinju”，<strong>采用无显示屏设计</strong>。IT之家附上相关图片如下：</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/79ca111",
+      "content_preview": "<p>IT之家 4 月 27 日消息，科技媒体 Android Headlines 今日发布博文，曝光三星 Galaxy Glasses 的外观渲染图。</p><p>据报道，这款产品外观看起来与 Meta Ray-Ban、谷歌 Gemini 眼镜没有太大区别，运行 Android XR 操作系统。内部开发代号“Jinju”，<strong>采用无显示屏设计</strong>。IT之家附上相关图片如下：</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/79ca1119-09c6-4d99-a4c6-078803e49960.png?x-bce-process=image/format,f_auto\" /></p><p style=\"text-align: center;\"><img class=\"not-source\" src=\"https://img.ithome.com/newsuploadfiles/2026/4/6574f5c4-9d91-463a-"
+    },
+    {
+      "title": "因含 AI 生成虚构参考文献，南非首份国家 AI 政策草案被撤回",
+      "link": "https://www.ithome.com/0/944/196.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T15:18:07+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，据路透社报道，南非撤回了其首份国家人工智能政策草案，此前有消息披露，该草案参考文献列表中包含虚构来源，这些来源似乎是由人工智能生成的。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2025/11/49e3c3c3-5ece-4eb9-bb3b-fc680292d666.png?x-bce-process=image/format,f_auto\" /></p><p>南非通信与数字技术部长索利・马拉齐表",
+      "content_preview": "<p>IT之家 4 月 27 日消息，据路透社报道，南非撤回了其首份国家人工智能政策草案，此前有消息披露，该草案参考文献列表中包含虚构来源，这些来源似乎是由人工智能生成的。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2025/11/49e3c3c3-5ece-4eb9-bb3b-fc680292d666.png?x-bce-process=image/format,f_auto\" /></p><p>南非通信与数字技术部长索利・马拉齐表示：“最合理的解释是，草案未经严格核查就纳入了人工智能生成的引用文献，这种情况本不该发生。”</p><p>IT之家注意到，他在社交平台 X 上发文称：“此次失误绝非单纯的技术问题，还损害了这份政策草案的严谨性与公信力。”</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/new"
+    },
+    {
+      "title": "索尼 FE 100-400mm f/4.5 GM 长焦镜头谍照曝光，内变焦设计",
+      "link": "https://www.ithome.com/0/944/194.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T15:09:51+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，据科技媒体 PhotoRumors 今天报道，索尼 FE 100-400mm f/4.5 GM 长焦镜头的实拍谍照现已曝光。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/33997ffb-3429-440a-873d-6d5537e04b11.jpg?x-bce-process=image/format,f_auto\" /></p><p>据介绍，<strong>这款镜头采用内变焦设计</strong>，操作变焦环时镜头长度",
+      "content_preview": "<p>IT之家 4 月 27 日消息，据科技媒体 PhotoRumors 今天报道，索尼 FE 100-400mm f/4.5 GM 长焦镜头的实拍谍照现已曝光。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/33997ffb-3429-440a-873d-6d5537e04b11.jpg?x-bce-process=image/format,f_auto\" /></p><p>据介绍，<strong>这款镜头采用内变焦设计</strong>，操作变焦环时镜头长度不会改变。镜身长度与 FE 200-600mm G 镜头类似，定价与 FE 50-150mm GM 镜头（IT之家注：京东售价 29999 元）相当。</p><p>此外，这款镜头预计将在今年 5 月，<strong>与 Alpha 7R VI 全画幅无反相机一同发布</strong>。</p><p><a href=\"https://www.ithome.com/0/941/370.htm\" tar"
+    },
+    {
+      "title": "被传与 OpenAI 合作开发 AI 智能手机处理器后，高通股价飙升 13%",
+      "link": "https://www.ithome.com/0/944/193.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T15:03:30+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，据路透社报道，美股周一盘前，<strong>高通股价上涨 13%</strong>。此前，分析师郭明錤称，OpenAI 正在与高通和联发科合作开发智能手机处理器。</p><p>天风国际证券分析师郭明錤在 X 上发文称，高通和联发科将共同参与 OpenAI 一款<strong>以 AI 为核心的智能手机</strong>开发，或在 2028 年进入量产。</p><p>郭明錤还称，“果链”厂商立讯精密将成为这款设备唯一的系统设计和制造合作伙伴。</p><p>OpenAI 探索消费级 AI 硬件已有数年。去年 5 月，OpenAI 以 65 亿美元（IT之家注：",
+      "content_preview": "<p>IT之家 4 月 27 日消息，据路透社报道，美股周一盘前，<strong>高通股价上涨 13%</strong>。此前，分析师郭明錤称，OpenAI 正在与高通和联发科合作开发智能手机处理器。</p><p>天风国际证券分析师郭明錤在 X 上发文称，高通和联发科将共同参与 OpenAI 一款<strong>以 AI 为核心的智能手机</strong>开发，或在 2028 年进入量产。</p><p>郭明錤还称，“果链”厂商立讯精密将成为这款设备唯一的系统设计和制造合作伙伴。</p><p>OpenAI 探索消费级 AI 硬件已有数年。去年 5 月，OpenAI 以 65 亿美元（IT之家注：现汇率约合 444.68 亿元人民币）收购前苹果设计师乔尼 · 艾夫创办的 io Products，并请其负责相关项目。</p><p>不过，之前的媒体报道一直显示，OpenAI 计划中的设备<strong>并不是一款智能手机</strong>。《华尔街日报》去年报道称，奥尔特曼曾告诉员工，这款设备将成为<strong>手机和笔记本电脑之外的“第三种核心设备”</strong>。</p><p>Ope"
+    },
+    {
+      "title": "iPhone Ultra 折叠屏手机与 MacBook Ultra 笔记本在列，消息称苹果计划明年推出两款超高端新品",
+      "link": "https://www.ithome.com/0/944/192.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T15:02:24+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，据科技媒体 MacWorld 今天报道，苹果正准备将“Ultra”品牌扩展到 Apple Watch Ultra 之外，明年推出两款超高端新品。</p><p>IT之家在此援引 MacWorld，苹果首款折叠屏手机预计将在 2027 年初推出，定位旗舰，与 iPhone 18 系列独立。许多媒体将其称为“iPhone Fold”，<strong>但消息源表示</strong>，<strong>苹果将使用“iPhone Ultra”进行命名</strong>。</p><p style=\"text-align: center;\"><img src=\"https:",
+      "content_preview": "<p>IT之家 4 月 27 日消息，据科技媒体 MacWorld 今天报道，苹果正准备将“Ultra”品牌扩展到 Apple Watch Ultra 之外，明年推出两款超高端新品。</p><p>IT之家在此援引 MacWorld，苹果首款折叠屏手机预计将在 2027 年初推出，定位旗舰，与 iPhone 18 系列独立。许多媒体将其称为“iPhone Fold”，<strong>但消息源表示</strong>，<strong>苹果将使用“iPhone Ultra”进行命名</strong>。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/1167b6dc-324a-4a2c-a687-c5c756fe9c42.png?x-bce-process=image/format,f_auto\" /></p><p>据悉，iPhone Ultra 并不会取代现有的 Pro 系列，而是作为超高端产品线存在。<strong>并且命名会遵照 iPhone Air 惯例<"
+    },
+    {
+      "title": "洛斐推出全球首款机械磁轴键盘 Hyzen：搭载凯华定制 Nexus 线性轴",
+      "link": "https://www.ithome.com/0/944/191.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T14:57:27+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，洛斐 4 月 23 日推出了“全球首款机械磁轴键盘”Lofree Hyzen，有望终结机械键盘与磁轴键盘两大阵营的争端。</p><p>这款键盘已登陆 Kickstarter 平台开启众筹，众筹价 169~219 美元（IT之家注：现汇率约合 1156 ~ 1498 元人民币）。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/6987866a-9cd0-480c-863e-6b666c91ebb0.jpg?x-bce-proc",
+      "content_preview": "<p>IT之家 4 月 27 日消息，洛斐 4 月 23 日推出了“全球首款机械磁轴键盘”Lofree Hyzen，有望终结机械键盘与磁轴键盘两大阵营的争端。</p><p>这款键盘已登陆 Kickstarter 平台开启众筹，众筹价 169~219 美元（IT之家注：现汇率约合 1156 ~ 1498 元人民币）。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/6987866a-9cd0-480c-863e-6b666c91ebb0.jpg?x-bce-process=image/format,f_auto\" /></p><p>洛斐介绍称，这是全球首款将机械手感与 TMR 高速磁感应触发相结合的键盘，旨在满足那些既追求打字手感又要求顶级游戏性能的用户。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/2b2a7983-31e"
+    },
+    {
+      "title": "冲击 30 万元以上市场，消息称零跑计划明年推出第二品牌",
+      "link": "https://www.ithome.com/0/944/190.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T14:56:58+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，今天晚间，“晚点 Auto”援引多个独立信源消息称，零跑汽车计划于 2027 年推出第二品牌，<strong>产品定价 30 万元以上</strong>。根据目前规划，该品牌将采用有别于零跑现有渠道的独立销售网络。</p><p>零跑 A、B、C、D 四个车型序列外加 Lafa 5，覆盖了从 6.58 万到 26.98 万元的价格带，和小鹏汽车一样也是轿车、SUV、MPV 以及纯电、增程全品类品牌。零跑高级副总裁兼 COO 徐军将这样的产品布局概括为<strong> “用 A 向下扎到根，用 D 向上捅到天，用 B、C 强腰支撑好中间</strong>”。<",
+      "content_preview": "<p>IT之家 4 月 27 日消息，今天晚间，“晚点 Auto”援引多个独立信源消息称，零跑汽车计划于 2027 年推出第二品牌，<strong>产品定价 30 万元以上</strong>。根据目前规划，该品牌将采用有别于零跑现有渠道的独立销售网络。</p><p>零跑 A、B、C、D 四个车型序列外加 Lafa 5，覆盖了从 6.58 万到 26.98 万元的价格带，和小鹏汽车一样也是轿车、SUV、MPV 以及纯电、增程全品类品牌。零跑高级副总裁兼 COO 徐军将这样的产品布局概括为<strong> “用 A 向下扎到根，用 D 向上捅到天，用 B、C 强腰支撑好中间</strong>”。</p><p>报道提到，零跑给 2026 年定的目标是 100 万辆销量、50 亿净利润。要获得更高利润，零跑只有进入更高价位段。对零跑来说，如果继续坚持主品牌“不会有高溢价”的产品逻辑，想突破 30 万元价格天花板，第二品牌是一个更自然的选择。</p><p>据IT之家此前报道，2025 年，零跑汽车交付新车 596555 台，连续两年实现销量翻倍增长，位居中国新势力品牌销量榜首；<strong>净"
+    },
+    {
+      "title": "半导体公司拓荆科技 2026 年一季度净利润 5.70 亿元",
+      "link": "https://www.ithome.com/0/944/189.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T14:44:51+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，拓荆科技今日发布 2026 年一季度报告：</p><ul class=\" list-paddingleft-2\"><li><p><strong>营业总收入</strong>： 11.12 亿元，同比增长 56.97%</p></li><li><p><strong>归母净利润</strong>： 5.71 亿元</p></li><li><p><strong>扣非净利润</strong>： 1.02 亿元</p></li><li><p><strong>经营现金流</strong>： -5.20 亿元，同比下降 4858.29%</p></li><li><p><",
+      "content_preview": "<p>IT之家 4 月 27 日消息，拓荆科技今日发布 2026 年一季度报告：</p><ul class=\" list-paddingleft-2\"><li><p><strong>营业总收入</strong>： 11.12 亿元，同比增长 56.97%</p></li><li><p><strong>归母净利润</strong>： 5.71 亿元</p></li><li><p><strong>扣非净利润</strong>： 1.02 亿元</p></li><li><p><strong>经营现金流</strong>： -5.20 亿元，同比下降 4858.29%</p></li><li><p><strong>基本每股收益</strong>： 2.03 元 / 股</p></li><li><p><strong>稀释每股收益</strong>： 2.00 元 / 股</p></li><li><p><strong>加权平均净资产收益率</strong>： 8.25 %，同比增加 11.06 个百分点</p></li></ul><p style=\"text-align: center;\"><im"
+    },
+    {
+      "title": "三星推出 Odyssey G8 G80HS 显示器：32 英寸 6K 165Hz / 3K 330Hz IPS 面板，1499 欧元",
+      "link": "https://www.ithome.com/0/944/188.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T14:42:55+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，三星现已在德国市场推出 Odyssey G8 G80HS 显示器，搭载 32 英寸 IPS 面板，支持 6K 165Hz/3K 330Hz 双模切换，6 月 19 日出货。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/4/9eb07c48-d460-472f-a891-bb53424c4958.jpg?x-bce-process=image/format,f_auto\" /></p><p>",
+      "content_preview": "<p>IT之家 4 月 27 日消息，三星现已在德国市场推出 Odyssey G8 G80HS 显示器，搭载 32 英寸 IPS 面板，支持 6K 165Hz/3K 330Hz 双模切换，6 月 19 日出货。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/4/9eb07c48-d460-472f-a891-bb53424c4958.jpg?x-bce-process=image/format,f_auto\" /></p><p>据介绍<strong>，这款显示器具备 6144*3456@160Hz、3072*1728@330Hz 两种模式</strong>，GTG 灰阶响应时间可达 1ms，兼顾高分辨率 3A 大作、高刷电竞网游需求。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuplo"
+    },
+    {
+      "title": "日产汽车连续两年亏损，2025 财年净亏 5500 亿日元同比收窄",
+      "link": "https://www.ithome.com/0/944/187.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T14:27:26+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，日产汽车今日公布，在截至 2026 年 3 月的 2025 财年，其合并净亏损为 5500 亿日元（IT之家注：现汇率约合 235.74 亿元人民币），上一财年净亏损为 6708 亿日元（现汇率约合 287.51 亿元人民币）。</p><p>这意味着日产连续第二年录得净亏损，不过亏损规模比此前预期少了 1000 亿日元，也好于市场原先预估的亏损 5783 亿日元。</p><p style=\"text-align: left;\">经营层面表现更好一些。<strong>日产合并营业利润为 500 亿日元（现汇率约合 21.43 亿元人民币）</strong>，",
+      "content_preview": "<p>IT之家 4 月 27 日消息，日产汽车今日公布，在截至 2026 年 3 月的 2025 财年，其合并净亏损为 5500 亿日元（IT之家注：现汇率约合 235.74 亿元人民币），上一财年净亏损为 6708 亿日元（现汇率约合 287.51 亿元人民币）。</p><p>这意味着日产连续第二年录得净亏损，不过亏损规模比此前预期少了 1000 亿日元，也好于市场原先预估的亏损 5783 亿日元。</p><p style=\"text-align: left;\">经营层面表现更好一些。<strong>日产合并营业利润为 500 亿日元（现汇率约合 21.43 亿元人民币）</strong>，上一财年为 697 亿日元。日产此前曾预计会出现 600 亿日元营业亏损，最终却实现扭亏。主要原因包括美国撤销温室气体排放相关监管，使日产得以冲回相关准备金；日元汇率比最初预期更弱；固定成本和变动成本削减也带来了效果。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/"
+    },
+    {
+      "title": "一加 Nord CE6 Lite 手机 5 月 7 日海外发布：天玑 7400 Apex 芯片，7000mAh 电池",
+      "link": "https://www.ithome.com/0/944/186.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T14:25:38+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，一加官方今天宣布 Nord CE6 Lite 手机将于 5 月 7 日在印度发售，新机定位中低端，主打 7000mAh 大电池设计 + 天玑 7400Apex 芯片。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/ce97429d-d196-4b4f-bd7a-b45f953297cf.jpg?x-bce-process=image/format,f_auto\" /></p><p>据介绍，这款手机配备 144Hz 高刷屏幕，",
+      "content_preview": "<p>IT之家 4 月 27 日消息，一加官方今天宣布 Nord CE6 Lite 手机将于 5 月 7 日在印度发售，新机定位中低端，主打 7000mAh 大电池设计 + 天玑 7400Apex 芯片。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/ce97429d-d196-4b4f-bd7a-b45f953297cf.jpg?x-bce-process=image/format,f_auto\" /></p><p>据介绍，这款手机配备 144Hz 高刷屏幕，8GB+256GB 版本安兔兔 V11 跑分超 1030000 分。<strong>可在《BGMI》（印度版本《和平精英》）和《使命召唤：Mobile》游戏中开启 90 帧模式</strong>。《地铁跑酷》等游戏则可以开启 144 帧模式。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadf"
+    },
+    {
+      "title": "联想收购 Phoenix Technologies 公司 BIOS 技术业务",
+      "link": "https://www.ithome.com/0/944/184.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T14:13:46+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，联想今天宣布收购 Phoenix Technologies 公司 BIOS（基本输入输出系统）技术业务，<strong>将相关知识产权收入麾下</strong>。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/ae48df29-b662-44b4-b257-3fcac2f5b68d.png?x-bce-process=image/format,f_auto\" /></p><p>IT之家在此援引官方新闻稿，本次收购将 Phoe",
+      "content_preview": "<p>IT之家 4 月 27 日消息，联想今天宣布收购 Phoenix Technologies 公司 BIOS（基本输入输出系统）技术业务，<strong>将相关知识产权收入麾下</strong>。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/ae48df29-b662-44b4-b257-3fcac2f5b68d.png?x-bce-process=image/format,f_auto\" /></p><p>IT之家在此援引官方新闻稿，本次收购将 Phoenix 公司 BIOS 开发、软件业务引入联想内部，增<strong>强联想 PC 产品线整合关键固件能力</strong>，并在未来扩展至其他 AI 设备。</p><p><strong>联想与 Phoenix 公司的合作已有 20 余年</strong>，后者长期为 ThinkPad 系列笔记本提供 BIOS。</p><p>本次交易在满足惯例交割条件后完成，尚未披露财务条款。</p><p>IT之"
+    },
+    {
+      "title": "英伟达 CEO 黄仁勋呼吁：亿万富翁“同行”们，不要离开加州",
+      "link": "https://www.ithome.com/0/944/178.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T14:08:11+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，尽管加州近期有人提议提高富豪税，英伟达 CEO 黄仁勋仍<strong>呼吁企业的领导者们留在加州，不要外迁</strong>。</p><p>黄仁勋在斯坦福商学院谈到加州为什么适合生活时说：“我对所有人都说，搬到加州来，不要离开。<strong>这里的税负是全球最高的，但没关系</strong>。”</p><p>这番表态的背景，是加州近期出现<strong>针对亿万富翁大幅加税的立法提案</strong>。这一主张在美国获得不少支持，核心诉求是缩小贫富差距。</p><p>这项法案计划向美国 1000 多名亿万富翁征收 <strong>5% 的年度财富税</",
+      "content_preview": "<p>IT之家 4 月 27 日消息，尽管加州近期有人提议提高富豪税，英伟达 CEO 黄仁勋仍<strong>呼吁企业的领导者们留在加州，不要外迁</strong>。</p><p>黄仁勋在斯坦福商学院谈到加州为什么适合生活时说：“我对所有人都说，搬到加州来，不要离开。<strong>这里的税负是全球最高的，但没关系</strong>。”</p><p>这番表态的背景，是加州近期出现<strong>针对亿万富翁大幅加税的立法提案</strong>。这一主张在美国获得不少支持，核心诉求是缩小贫富差距。</p><p>这项法案计划向美国 1000 多名亿万富翁征收 <strong>5% 的年度财富税</strong>，其中也包括多名科技公司 CEO。加税压力已经推动部分富豪离开加州，包括搬到内华达州的 Meta CEO 马克 · 扎克伯格，以及搬到佛罗里达州的谷歌联合创始人拉里 · 佩奇和谢尔盖 · 布林。</p><p>黄仁勋最近被列为全球第八大富豪。彭博估算，他的净资产约为 <strong>1670 亿美元（IT之家注：现汇率约合 1.14 万亿元人民币）</strong>。如果这项新法案落地"
+    },
+    {
+      "title": "安克“AI 录音豆”智能录音硬件新增 64GB 存储空间版本，999 元",
+      "link": "https://www.ithome.com/0/944/177.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T14:05:36+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，安克宣布为旗下“AI 录音豆”智能录音硬件新增 64GB 存储空间版本，该产品系安克与飞书合作的产品，定价为 999 元。</p><dir><a contenteditable=\"false\" href=\"https://u.jd.com/fOOeaNn\" target=\"_blank\"><span class=\"card main-site\"><span class=\"card-logo\"><img src=\"https://img14.360buyimg.com/pop/jfs/t1/424429/40/13264/60637/69eee0a0Fbf5",
+      "content_preview": "<p>IT之家 4 月 27 日消息，安克宣布为旗下“AI 录音豆”智能录音硬件新增 64GB 存储空间版本，该产品系安克与飞书合作的产品，定价为 999 元。</p><dir><a contenteditable=\"false\" href=\"https://u.jd.com/fOOeaNn\" target=\"_blank\"><span class=\"card main-site\"><span class=\"card-logo\"><img src=\"https://img14.360buyimg.com/pop/jfs/t1/424429/40/13264/60637/69eee0a0Fbf57b3dc/0083320320b7aec3.jpg\" /></span><span class=\"card-info\"><span class=\"card-title\"><span class=\"mall-data\">京东</span><span class=\"card-name\">安克 AI 录音豆 64GB 版本</span></span><span class=\"card-abstract"
+    },
+    {
+      "title": "金士顿 DC3000ME 系列 U.2 NVMe 固态硬盘新增 30.72TB 版本，顺序读取速度可达 14GB/s",
+      "link": "https://www.ithome.com/0/944/176.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T13:55:32+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，金士顿 DC3000ME 系列 U.2 NVMe 固态硬盘现已新增 30.72TB 版本，该产品主要为企业市场设计，满足数据中心存储需求。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/4/9d68160e-666c-41b9-8e25-9734deff4365.jpg?x-bce-process=image/format,f_auto\" /></p><p>据介绍，这款固态硬盘采用 PCIe",
+      "content_preview": "<p>IT之家 4 月 27 日消息，金士顿 DC3000ME 系列 U.2 NVMe 固态硬盘现已新增 30.72TB 版本，该产品主要为企业市场设计，满足数据中心存储需求。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/4/9d68160e-666c-41b9-8e25-9734deff4365.jpg?x-bce-process=image/format,f_auto\" /></p><p>据介绍，这款固态硬盘采用 PCIe 5.0 NVMe 接口，<strong>顺序读取速度最高可达 14GB/s</strong>，随机读取性能高达 280 万 IOPS，可为计算密集型应用提供更快访问速度。<strong>支持向下兼容 PCIe 4.0</strong>，可在混合环境下部署。</p><p>规格方面，这款硬盘采用 3D eTLC NAND 颗粒，配备板载断电防护，可在意外断电时保障数据安全，支持 AES 256 加密"
+    },
+    {
+      "title": "消息称小米显示器中高端型号将迎来涨价",
+      "link": "https://www.ithome.com/0/944/175.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T13:42:57+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，据博板堂 / 视讯堂旗下“ChannelGate 视博合聚”爆料，市场传闻显示小米显示器可能因为芯片成本上涨，而中高端型号面临至少长达半年的涨价。</p><p>该媒体表示，由于存储等成本上涨原因，造成中高端显示器用主控板芯片成本上涨，而据说小米的中高端机型第二季度成本因此上涨了 2-3 美元（现汇率约合 13.7 - 20.5 元人民币），而且第三季度还将在此涨幅基础上再涨 3 美元（IT之家注：现汇率约合 20.5 元人民币）左右。不排除小米显示器近期可能会采用分阶段上涨相关显示器型号价格的做法（尤其是高分辨率机型），从而解决成本上涨问题。</p><p>",
+      "content_preview": "<p>IT之家 4 月 27 日消息，据博板堂 / 视讯堂旗下“ChannelGate 视博合聚”爆料，市场传闻显示小米显示器可能因为芯片成本上涨，而中高端型号面临至少长达半年的涨价。</p><p>该媒体表示，由于存储等成本上涨原因，造成中高端显示器用主控板芯片成本上涨，而据说小米的中高端机型第二季度成本因此上涨了 2-3 美元（现汇率约合 13.7 - 20.5 元人民币），而且第三季度还将在此涨幅基础上再涨 3 美元（IT之家注：现汇率约合 20.5 元人民币）左右。不排除小米显示器近期可能会采用分阶段上涨相关显示器型号价格的做法（尤其是高分辨率机型），从而解决成本上涨问题。</p><p>作为比较，目前小米在售<a href=\"https://www.ithome.com/0/938/848.htm\" target=\"_blank\">定价最高的 REDMI G Pro 32U 2026 32 寸 Mini LED 显示器</a>价格为 3999 元。配备一块 31.5 英寸 1152 分区背光 4K 160Hz/1080P 320Hz 双模 QD-Mini LED 面板，搭载澎湃 "
+    },
+    {
+      "title": "江波龙 2026 年一季度净利润 38.62 亿元，同比增长 2644.05%",
+      "link": "https://www.ithome.com/0/944/174.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T13:40:16+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，江波龙今日发布 2026 年一季度报告：</p><ul class=\" list-paddingleft-2\"><li><p><strong>营业总收入</strong>： 99.09 亿元，同比增长 132.79%</p></li><li><p><strong>归母净利润</strong>： 38.62 亿元，同比增长 2644.05%</p></li><li><p><strong>扣非净利润</strong>： 39.43 亿元，同比增长 2051.40%</p></li><li><p><strong>经营现金流</strong>： -28.75 亿元",
+      "content_preview": "<p>IT之家 4 月 27 日消息，江波龙今日发布 2026 年一季度报告：</p><ul class=\" list-paddingleft-2\"><li><p><strong>营业总收入</strong>： 99.09 亿元，同比增长 132.79%</p></li><li><p><strong>归母净利润</strong>： 38.62 亿元，同比增长 2644.05%</p></li><li><p><strong>扣非净利润</strong>： 39.43 亿元，同比增长 2051.40%</p></li><li><p><strong>经营现金流</strong>： -28.75 亿元，同比下降 1978.37%</p></li><li><p><strong>基本每股收益</strong>： 9.21 元 / 股，同比增长 2589.19%</p></li><li><p><strong>稀释每股收益</strong>： 9.14 元 / 股，同比增长 2638.89%</p></li><li><p><strong>加权平均净资产收益率</strong>： 39.40%，同比增长"
+    },
+    {
+      "title": "游戏《玩具熊的五夜后宫：模仿者的秘密》明日登陆 SteamVR / 索尼 PS VR 2 平台，国区售 136 元",
+      "link": "https://www.ithome.com/0/944/173.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T13:36:52+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，开发商 Steel Wool Studios 宣布旗下《玩具熊的五夜后宫：模仿者的秘密（Five Nights at Freddy's：Secret of the Mimic）》将于 4 月 28 日（明天）登陆 SteamVR 和索尼 PS VR 2 平台，令其成为了《玩具熊的五夜后宫》系列 IP 中第三款支持 VR 的游戏。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/4/8f6cb4",
+      "content_preview": "<p>IT之家 4 月 27 日消息，开发商 Steel Wool Studios 宣布旗下《玩具熊的五夜后宫：模仿者的秘密（Five Nights at Freddy's：Secret of the Mimic）》将于 4 月 28 日（明天）登陆 SteamVR 和索尼 PS VR 2 平台，令其成为了《玩具熊的五夜后宫》系列 IP 中第三款支持 VR 的游戏。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/4/8f6cb4cf-3579-4c9f-b32b-7e090b2e8f3c.png?x-bce-process=image/format,f_auto\" /></p><p>本作最初于 2025 年 6 月 13 日登陆 PC 和索尼 PS5 平台，在 Steam 好评率 86%“特别好评”，国区定价 136 元。游戏商品页（<a href=\"https://store.steampowered.com/app/"
+    },
+    {
+      "title": "英特尔高管罗伯特 · 哈洛克：PC 游戏性能不只受硬件影响，硬件发烧友严重低估软件重要性",
+      "link": "https://www.ithome.com/0/944/172.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T13:35:28+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，英特尔高级技术专家罗伯特 · 哈洛克上周（4 月 22 日）接受 PC Games Hardware 采访时指出，PC 游戏性能不只受硬件影响，驱动程序、调度逻辑优化也是决定画质 / 帧数上限的重要因素。</p><p>他表示：“我这话可能会惹麻烦，但我真的相信，<strong>普通 PC 玩家、硬件发烧友严重低估了软件的重要性</strong>”。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/0cafd46e-e137-4",
+      "content_preview": "<p>IT之家 4 月 27 日消息，英特尔高级技术专家罗伯特 · 哈洛克上周（4 月 22 日）接受 PC Games Hardware 采访时指出，PC 游戏性能不只受硬件影响，驱动程序、调度逻辑优化也是决定画质 / 帧数上限的重要因素。</p><p>他表示：“我这话可能会惹麻烦，但我真的相信，<strong>普通 PC 玩家、硬件发烧友严重低估了软件的重要性</strong>”。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/0cafd46e-e137-44fd-b3e6-d6bdff16428c.jpg?x-bce-process=image/format,f_auto\" /></p><p>哈洛克认为，当今的 PC 市场存在无数种硬件组合。不同的 CPU、显卡和 BIOS 版本可能导致某些配置无法得到最佳支持，导致游戏没法发挥理论最佳性能。<strong>并且软件是这条链中复杂性最高的部分</strong>，<strong>厂商们无法对成千上万种"
+    },
+    {
+      "title": "因竞争力下滑，消息称三星电子将停止在中国销售家电及电视产品",
+      "link": "https://www.ithome.com/0/944/171.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T13:32:00+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，据日经新闻报道，韩国三星电子将于年内撤出中国市场的家电及电视销售业务。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/4/17031de1-7900-4e76-badc-b4d1ec335b43.png?x-bce-process=image/format,f_auto\" /></p><p>IT之家注意到，报道援引不愿具名的消息人士称，三星电子最早将于 4 月底就停止在华家电和电视产品销售做",
+      "content_preview": "<p>IT之家 4 月 27 日消息，据日经新闻报道，韩国三星电子将于年内撤出中国市场的家电及电视销售业务。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/4/17031de1-7900-4e76-badc-b4d1ec335b43.png?x-bce-process=image/format,f_auto\" /></p><p>IT之家注意到，报道援引不愿具名的消息人士称，三星电子最早将于 4 月底就停止在华家电和电视产品销售做出最终决定。</p><p>报道称，三星电子将保留冰箱、洗衣机、空调等家电在华本土生产业务，把相关生产基地用作海外市场的供应枢纽。</p><p>报道称，三星此次撤出的最主要原因是旗下产品价格竞争力持续下滑；此外，中国家电厂商不仅产品售价低廉，产品品质也已大幅提升，在全球市场的影响力正不断增强。</p><p>三星电子在一份声明中表示，公司会根据经营环境变化定期审视全球业务架构，并称针对市场有关其或将重"
+    },
+    {
+      "title": "3 年 60GWh，宁德时代获全球规模最大钠离子电池订单",
+      "link": "https://www.ithome.com/0/944/168.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T13:27:59+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，今天傍晚，宁德时代官方公众号宣布，宁德时代与海博思创在福建宁德签署储能钠离子电池战略合作协议。双方宣布，达成 <strong>3 年 60GWh</strong> 钠离子电池订单合作。</p><p>作为宁德时代首个储能钠电战略合作伙伴，海博思创将与宁德时代在技术研发、产品应用与项目落地等方面密切合作。当天，宁德时代零碳能源事业部中国区副总裁李越与海博思创副总裁赵青代表双方签署协议。</p><p>据介绍，此次合作标志着宁德时代已<strong>攻克钠离子电池量产全链条难题，具备规模化交付能力</strong>。这是<strong>全球迄今规模最大</stro",
+      "content_preview": "<p>IT之家 4 月 27 日消息，今天傍晚，宁德时代官方公众号宣布，宁德时代与海博思创在福建宁德签署储能钠离子电池战略合作协议。双方宣布，达成 <strong>3 年 60GWh</strong> 钠离子电池订单合作。</p><p>作为宁德时代首个储能钠电战略合作伙伴，海博思创将与宁德时代在技术研发、产品应用与项目落地等方面密切合作。当天，宁德时代零碳能源事业部中国区副总裁李越与海博思创副总裁赵青代表双方签署协议。</p><p>据介绍，此次合作标志着宁德时代已<strong>攻克钠离子电池量产全链条难题，具备规模化交付能力</strong>。这是<strong>全球迄今规模最大</strong>的钠离子电池订单，开启全球钠电产业规模化爆发新阶段。</p><p>据IT之家了解，宁德时代通过形貌控制和表面改性，大幅提升钠离子电池能量密度；并在制造工艺方面通过<strong>埃米级孔径调节、表面分子锁水及自适应动态化成等核心技术</strong>，系统性地解决了硬碳产线起泡及水分控制等量产环节的工艺问题，保证了大批量产品的一致性。</p><p>同时，宁德时代储能钠离子电池采用了与锂离子电"
+    },
+    {
+      "title": "微软不再向 OpenAI 支付营收分成，丧失对后者技术的独占授权",
+      "link": "https://www.ithome.com/0/944/167.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T13:16:00+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，OpenAI 与微软宣布对双方的合作协议作出调整，两家企业称此次调整将为彼此带来长期的合作确定性与灵活性。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/2/8ad2304d-c61b-4004-9483-e1a55ca43342.png?x-bce-process=image/format,f_auto\" /></p><p>IT之家注意到，根据修订后的协议条款，微软仍保留 OpenAI 首",
+      "content_preview": "<p>IT之家 4 月 27 日消息，OpenAI 与微软宣布对双方的合作协议作出调整，两家企业称此次调整将为彼此带来长期的合作确定性与灵活性。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/2/8ad2304d-c61b-4004-9483-e1a55ca43342.png?x-bce-process=image/format,f_auto\" /></p><p>IT之家注意到，根据修订后的协议条款，微软仍保留 OpenAI 首要云服务合作伙伴的地位；除非微软无法或选择不支持相关所需功能，否则 OpenAI 旗下产品将优先在微软 Azure 云平台上线。如今，<strong>OpenAI 已可通过任意云服务商向客户提供旗下全部产品服务。</strong></p><p>微软将持续拥有 OpenAI 模型及产品知识产权的授权，有效期至 2032 年，<strong>且该授权自此改为非独占式授权</strong>。此外，<st"
+    },
+    {
+      "title": "北京银行：科技金融贷款“十四五”期间增长178%",
+      "link": "https://36kr.com/newsflashes/3785091807091972?f=rss",
+      "source": "36氪",
+      "source_url": "https://www.36kr.com/feed",
+      "published": "2026-04-27T13:14:29+00:00",
+      "summary": "4月27日晚，北京银行发布2025年年度报告。报告显示，截止2025年末，该行科技金融贷款余额4489.97亿元，较年初增长847.18亿元，增速23.26%，较“十四五”期初增长178%；服务专精特新企业超3万家，为近6万家科技型中小微企业提供信贷资金1.45万亿元；在北京地区服务82%创业板、76%科创板、75%北交所上市企业。",
+      "content_preview": "4月27日晚，北京银行发布2025年年度报告。报告显示，截止2025年末，该行科技金融贷款余额4489.97亿元，较年初增长847.18亿元，增速23.26%，较“十四五”期初增长178%；服务专精特新企业超3万家，为近6万家科技型中小微企业提供信贷资金1.45万亿元；在北京地区服务82%创业板、76%科创板、75%北交所上市企业。"
+    },
+    {
+      "title": "巴基斯坦企业 Jazz 与华为合作部署光伏系统，总装机容量达 13MW",
+      "link": "https://www.ithome.com/0/944/166.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T13:11:52+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，华为官方今天宣布，其携手巴基斯坦企业 Jazz，<strong>在全国范围内 100 个通信站点成功部署光伏系统</strong>。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/4/6cc1a6d6-6db4-401c-bacc-c67f243a6b8d.jpg?x-bce-process=image/format,f_auto\" /></p><p>IT之家从“华为数字能源”公众号了解到，",
+      "content_preview": "<p>IT之家 4 月 27 日消息，华为官方今天宣布，其携手巴基斯坦企业 Jazz，<strong>在全国范围内 100 个通信站点成功部署光伏系统</strong>。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/4/6cc1a6d6-6db4-401c-bacc-c67f243a6b8d.jpg?x-bce-process=image/format,f_auto\" /></p><p>IT之家从“华为数字能源”公众号了解到，这是巴基斯坦通信行业最大的可再生能源项目之一，<strong>总装机容量达到 13MW</strong>。</p><p>据悉，当前这些叠光站点预计每年可产生约 11GWh 的绿色电力，<strong>每年减少碳排放约 1.5 万吨</strong>。除了显著对环境有益，本次部署还提升了网络的可靠性，为数百万客户提供了更加稳定的连接。</p><p>此外，本次项目还应用了华为的一体化绿色站点解决方案，"
+    },
+    {
+      "title": "比亚迪第二代腾势 D9 正式上市，35.98 万-46.98 万元",
+      "link": "https://www.ithome.com/0/944/165.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T13:07:16+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，今天晚间，比亚迪第二代腾势 D9 正式上市。新车提供纯电、插混两种动力，全系支持闪充。</p><h2>纯电版</h2><ul class=\" list-paddingleft-2\"><li><p>闪充旗舰型：46.98 万元</p></li><li><p>闪充尊荣型：40.98 万元</p></li><li><p>闪充尊贵型：36.98 万元</p></li></ul><h2>插混版</h2><ul class=\" list-paddingleft-2\"><li><p>闪充旗舰型：45.98 万元</p></li><li><p>闪充尊荣型：39.98 万元",
+      "content_preview": "<p>IT之家 4 月 27 日消息，今天晚间，比亚迪第二代腾势 D9 正式上市。新车提供纯电、插混两种动力，全系支持闪充。</p><h2>纯电版</h2><ul class=\" list-paddingleft-2\"><li><p>闪充旗舰型：46.98 万元</p></li><li><p>闪充尊荣型：40.98 万元</p></li><li><p>闪充尊贵型：36.98 万元</p></li></ul><h2>插混版</h2><ul class=\" list-paddingleft-2\"><li><p>闪充旗舰型：45.98 万元</p></li><li><p>闪充尊荣型：39.98 万元</p></li><li><p>闪充尊贵型：35.98 万元</p></li></ul><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/166f8adf-9ec1-414d-8676-2d3929f70345.png?x-bce-process=image/format,f"
+    },
+    {
+      "title": "墨甲机器人完成 110 台交付、1030 台签约，尹同跃称“奇瑞最不希望被定义为一家汽车公司”",
+      "link": "https://www.ithome.com/0/944/163.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T13:04:22+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，奇瑞墨甲全球发布会在安徽芜湖举行，墨甲产品矩阵 —— 人形机器人墨茵、智警机器人、导医机器人、机器狗等亮相。在现场，智警机器人也完成了 110 台交付及 1030 台签约。奇瑞集团董事长尹同跃表示：这标志着墨甲已经全面迈入规模化商用新阶段。</p><p style=\"text-align: center;\"><img alt=\"图片\" src=\"https://img.ithome.com/newsuploadfiles/2026/4/618204d7-cda7-4700-9e7c-3b1984c7ab9a.jpg?x-bce-process=image/",
+      "content_preview": "<p>IT之家 4 月 27 日消息，奇瑞墨甲全球发布会在安徽芜湖举行，墨甲产品矩阵 —— 人形机器人墨茵、智警机器人、导医机器人、机器狗等亮相。在现场，智警机器人也完成了 110 台交付及 1030 台签约。奇瑞集团董事长尹同跃表示：这标志着墨甲已经全面迈入规模化商用新阶段。</p><p style=\"text-align: center;\"><img alt=\"图片\" src=\"https://img.ithome.com/newsuploadfiles/2026/4/618204d7-cda7-4700-9e7c-3b1984c7ab9a.jpg?x-bce-process=image/format,f_auto\" /></p><p>奇瑞集团董事长尹同跃在致辞中指出，奇瑞始终坚持“T+T”战略，既向 Toyota（丰田）学习极致质量与体系能力，也向 Tesla（特斯拉）学习创新精神与颠覆式思维。“我们<strong>最不希望被定义为一家汽车公司</strong>，而是一家面向未来的高科技、具身化、创新公司。”</p><p>他表示，奇瑞做机器人的最大优势在于，机器人与智能汽车在感知"
+    },
+    {
+      "title": "育碧《刺客信条：女巫》再失核心主创，项目方向与发售日成谜",
+      "link": "https://www.ithome.com/0/944/162.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T12:59:49+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，《刺客信条：女巫》（Assassin's Creed Hexe）游戏总监伯努瓦・里歇尔宣布已离开该项目，成为今年第二位离职的本作开发团队总监级核心成员。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/4/ae6ce92f-c3db-4ca4-aa50-6db22b25bbcf.png?x-bce-process=image/format,f_auto\" /></p><p>里歇尔官宣已从育碧离",
+      "content_preview": "<p>IT之家 4 月 27 日消息，《刺客信条：女巫》（Assassin's Creed Hexe）游戏总监伯努瓦・里歇尔宣布已离开该项目，成为今年第二位离职的本作开发团队总监级核心成员。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/4/ae6ce92f-c3db-4ca4-aa50-6db22b25bbcf.png?x-bce-process=image/format,f_auto\" /></p><p>里歇尔官宣已从育碧离职，加入总部位于魁北克的独立工作室 Servo Games。他将与同样出身育碧的资深开发者吕克・特伦布莱、丹尼・马库、亚历克斯・德龙共同创办这家工作室，并担任联合创始人兼游戏总监。</p><p>这位前《刺客信条：女巫》开发负责人表示：“这是人生新篇章的开端。我很荣幸能为魁北克创意产业生态贡献力量，并助力其发展壮大。”里歇尔并未透露新作项目细节，但承诺后续会公布更多相关信息。</p><p>距离创意总"
+    },
+    {
+      "title": "热门中概股美股盘前普跌，阿里巴巴跌超2%",
+      "link": "https://36kr.com/newsflashes/3785076313283586?f=rss",
+      "source": "36氪",
+      "source_url": "https://www.36kr.com/feed",
+      "published": "2026-04-27T12:58:44+00:00",
+      "summary": "36氪获悉，热门中概股美股盘前普跌，截至发稿，阿里巴巴、哔哩哔哩跌超2%，京东、理想汽车、小鹏集团跌超1%，拼多多跌0.65%，百度跌0.15%，蔚来涨超1%。",
+      "content_preview": "36氪获悉，热门中概股美股盘前普跌，截至发稿，阿里巴巴、哔哩哔哩跌超2%，京东、理想汽车、小鹏集团跌超1%，拼多多跌0.65%，百度跌0.15%，蔚来涨超1%。"
+    },
+    {
+      "title": "美股大型科技股盘前多数下跌，苹果跌超1%",
+      "link": "https://36kr.com/newsflashes/3785074859416840?f=rss",
+      "source": "36氪",
+      "source_url": "https://www.36kr.com/feed",
+      "published": "2026-04-27T12:57:15+00:00",
+      "summary": "36氪获悉，美股大型科技股盘前多数下跌，截至发稿，苹果跌超1%，特斯拉跌0.62%，Meta跌0.36%，亚马逊跌0.29%，英特尔跌0.07%，英伟达涨超1%。",
+      "content_preview": "36氪获悉，美股大型科技股盘前多数下跌，截至发稿，苹果跌超1%，特斯拉跌0.62%，Meta跌0.36%，亚马逊跌0.29%，英特尔跌0.07%，英伟达涨超1%。"
+    },
+    {
+      "title": "徕卡推出锤纹限量版 M-A 胶片相机：纪念日本银座旗舰店开业 20 周年，全球限量 100 台",
+      "link": "https://www.ithome.com/0/944/161.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T12:53:47+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，徕卡现已在日本市场推出 Hammertone 锤纹限量版 M-A 胶片相机，纪念日本银座旗舰店开业 20 周年。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/dfafc587-136b-4925-ab08-1654652ea836.jpg?x-bce-process=image/format,f_auto\" /></p><p>徕卡曾在 2006 年 4 月在日本银座开设全球首家直营店，开业至今已有 20 年。</p><p>",
+      "content_preview": "<p>IT之家 4 月 27 日消息，徕卡现已在日本市场推出 Hammertone 锤纹限量版 M-A 胶片相机，纪念日本银座旗舰店开业 20 周年。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/dfafc587-136b-4925-ab08-1654652ea836.jpg?x-bce-process=image/format,f_auto\" /></p><p>徕卡曾在 2006 年 4 月在日本银座开设全球首家直营店，开业至今已有 20 年。</p><p>徕卡 M-A 是一台“回归摄影本质”的旁轴相机，<strong>整个机身完全没有任何电子元器件</strong>，过片、快门等操作完全使用机械驱动。相比 M-P 移除了测光表，因此<strong>无需电池即可使用</strong>。当然也没有自动曝光、自动对焦等现代功能。机械快门最快可达 1/1000 秒，闪光同步速度 1/50 秒。</p><p style=\"text-align: center"
+    },
+    {
+      "title": "石油巨头壳牌将打造全新纯电概念车，快充时间低于 10 分钟",
+      "link": "https://www.ithome.com/0/944/160.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T12:47:20+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，当地时间 4 月 24 日，据外媒 AutoExpress 报道，石油巨头壳牌将打造一款全新概念车，旨在展示下一代电动汽车技术。</p><p>壳牌希望通过这辆车证明，电动汽车可以充电更快、能效更高，全生命周期碳排放也可以进一步降低。这款车名为 Triple 10 Challenge，是一款小型 SUV，<strong>预计 6 月完整亮相</strong>。该车使用的技术方案都来自英国，将是“现实中可以落地”的技术。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" id=\"17772939",
+      "content_preview": "<p>IT之家 4 月 27 日消息，当地时间 4 月 24 日，据外媒 AutoExpress 报道，石油巨头壳牌将打造一款全新概念车，旨在展示下一代电动汽车技术。</p><p>壳牌希望通过这辆车证明，电动汽车可以充电更快、能效更高，全生命周期碳排放也可以进一步降低。这款车名为 Triple 10 Challenge，是一款小型 SUV，<strong>预计 6 月完整亮相</strong>。该车使用的技术方案都来自英国，将是“现实中可以落地”的技术。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" id=\"1777293968565_1\" src=\"https://img.ithome.com/newsuploadfiles/2026/4/e5676302-32b7-472f-9c5f-af6cee4dc39e.png?x-bce-process=image/format,f_auto\" /></p><p>Triple 10 Challenge 这个名字对应的核心目标，是打造一辆更实用也更可持续的电动汽车：<str"
+    },
+    {
+      "title": "超过人类状元，ChatGPT 以最高分通过日本顶尖大学入学考试",
+      "link": "https://www.ithome.com/0/944/159.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T12:43:00+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，一家人工智能创业公司于周一表示，在日本顶尖学府东京大学与京都大学今年的入学考试中，ChatGPT 取得了最高分，成绩超过了人类状元考生的分数。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2025/9/b1d725a2-585f-483b-880d-47b62417e4f6.png?x-bce-process=image/format,f_auto\" /></p><p>据 LifePrompt 公司介绍，这款生成式人工智能聊天机器人，在",
+      "content_preview": "<p>IT之家 4 月 27 日消息，一家人工智能创业公司于周一表示，在日本顶尖学府东京大学与京都大学今年的入学考试中，ChatGPT 取得了最高分，成绩超过了人类状元考生的分数。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2025/9/b1d725a2-585f-483b-880d-47b62417e4f6.png?x-bce-process=image/format,f_auto\" /></p><p>据 LifePrompt 公司介绍，这款生成式人工智能聊天机器人，在东京大学竞争最激烈的自然科学三类医学专业入学考试中，比真人最高分考生高出 50 分，数学科目更是拿到了满分。而在 2024 年，这款人工智能还未能通过该校所有入学考试，如今已实现突破。</p><p>据IT之家了解，该企业采用 OpenAI 的 ChatGPT 5.2 思考模型开展测试，让模型参加两所大学的本科入学考试，将考题转化为图像数据输入模型作答。由于答卷包含论述题，最终由知名补习学校河合塾的"
+    },
+    {
+      "title": "万兴科技：2025年营收15.3亿元，归母净利减亏44.2%",
+      "link": "https://36kr.com/newsflashes/3785054828911878?f=rss",
+      "source": "36氪",
+      "source_url": "https://www.36kr.com/feed",
+      "published": "2026-04-27T12:42:41+00:00",
+      "summary": "36氪获悉，万兴科技公告，2025年营业收入达15.33亿元，同比增长6.46%；归母净利同比减亏44.19%，销售费用率同比降1.87个百分点。其中，核心视频创意业务营收10.2亿元，移动产品收入同比增超60%，AI原生应用收入同比增超90%。",
+      "content_preview": "36氪获悉，万兴科技公告，2025年营业收入达15.33亿元，同比增长6.46%；归母净利同比减亏44.19%，销售费用率同比降1.87个百分点。其中，核心视频创意业务营收10.2亿元，移动产品收入同比增超60%，AI原生应用收入同比增超90%。"
+    },
+    {
+      "title": "北京汽车 2026 财年第一财季亏损 8.30 亿元，同比下降 189.25%",
+      "link": "https://www.ithome.com/0/944/157.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T12:38:10+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，北京汽车今日发布 2026 财年第一财季报告：</p><ul class=\" list-paddingleft-2\"><li><p><strong>营业总收入</strong>： 314.12 亿元，同比下降 25.99%</p></li><li><p><strong>归母净利润</strong>： -8.30 亿元，同比下降 189.25%</p></li><li><p><strong>经营现金流</strong>： -67.70 亿元，同比下降 545.41%</p></li></ul><p style=\"text-align: center;\"><i",
+      "content_preview": "<p>IT之家 4 月 27 日消息，北京汽车今日发布 2026 财年第一财季报告：</p><ul class=\" list-paddingleft-2\"><li><p><strong>营业总收入</strong>： 314.12 亿元，同比下降 25.99%</p></li><li><p><strong>归母净利润</strong>： -8.30 亿元，同比下降 189.25%</p></li><li><p><strong>经营现金流</strong>： -67.70 亿元，同比下降 545.41%</p></li></ul><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/4/91aec1f3-03da-4141-a2f9-736e5712aab8.png?x-bce-process=image/format,f_auto\" /></p><p style=\"text-align: center;\"><img class=\"no"
+    },
+    {
+      "title": "小红书正式发布 AI 内容治理规则：将对违规行为采取限制分发、封禁账号等梯度处置措施",
+      "link": "https://www.ithome.com/0/944/156.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T12:34:48+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，小红书平台今天发布 AI 治理规则公告，平台鼓励创作者如实标识 AI 内容，鼓励用户利用 AI 进行创作，但严禁用户利用 AI 进行违规运营、造假、侵权等行为。</p><p>小红书同时表示，创作者应当在笔记中如实标识 AI 内容。无论是完全由 AI 生成，还是经 AI 润色的再创作，均建议在发布时主动声明。对于未主动标注的 AI 内容，平台识别后将统一添加标识；同时上线申诉通道，供创作者对标识结果提出异议。</p><p>同时，平台将对以下利用 AI 技术违反社区规范的行为持严格管控：</p><ul class=\"medium-size list-paddi",
+      "content_preview": "<p>IT之家 4 月 27 日消息，小红书平台今天发布 AI 治理规则公告，平台鼓励创作者如实标识 AI 内容，鼓励用户利用 AI 进行创作，但严禁用户利用 AI 进行违规运营、造假、侵权等行为。</p><p>小红书同时表示，创作者应当在笔记中如实标识 AI 内容。无论是完全由 AI 生成，还是经 AI 润色的再创作，均建议在发布时主动声明。对于未主动标注的 AI 内容，平台识别后将统一添加标识；同时上线申诉通道，供创作者对标识结果提出异议。</p><p>同时，平台将对以下利用 AI 技术违反社区规范的行为持严格管控：</p><ul class=\"medium-size list-paddingleft-2\"><li><p>AI 违规运营：利用 AI 工具自动运营账号、冒充真人互动，或传授利用 AI 洗稿、规避审核的做号方法；</p></li><li><p>AI 造假：克隆他人声音或面孔、以虚假人设种草、伪造经历与截图，或制造涉及公共事件的虚假图文视频；</p></li><li><p>AI 侵权：未经授权生成他人可识别肖像，或模仿受版权保护的视觉、文学、音乐作品；</p></li><"
+    },
+    {
+      "title": "消息称台积电 3nm 月产能将提升至 18 万片，同比增长超 40%",
+      "link": "https://www.ithome.com/0/944/155.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T12:30:45+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，据 TrendForce 今天报道，台积电正加速扩张先进制程产能。其中 3nm 工艺月产能将由原本的 15 万片提升至 18 万片，<strong>同比增长超 40%</strong>。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/bd148bab-517f-4bff-9c4f-fa8f8664dd58.jpg?x-bce-process=image/format,f_auto\" /></p><p>台积电在财报电话会议中提",
+      "content_preview": "<p>IT之家 4 月 27 日消息，据 TrendForce 今天报道，台积电正加速扩张先进制程产能。其中 3nm 工艺月产能将由原本的 15 万片提升至 18 万片，<strong>同比增长超 40%</strong>。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/bd148bab-517f-4bff-9c4f-fa8f8664dd58.jpg?x-bce-process=image/format,f_auto\" /></p><p>台积电在财报电话会议中提到，为满足 AI 应用强劲需求，公司正增加资本投入以扩展 3nm 产能。<strong>其中台南科学园区 3nm 工厂预计明年上半年进入量产阶段</strong>；美国亚利桑那第二工厂已完成建设，预计明年下半年开始量产 3nm 晶圆；而熊本第二工厂也将包含 3nm 制程，预计 2028 年量产。</p><p>IT之家从报道中了解到，3nm 工艺的主要需求来自 AI 硬件，英伟达、AMD 和汽车厂商"
+    },
+    {
+      "title": "盒马升级大区制，设立AI委员会",
+      "link": "https://36kr.com/newsflashes/3785032906546183?f=rss",
+      "source": "36氪",
+      "source_url": "https://www.36kr.com/feed",
+      "published": "2026-04-27T12:30:29+00:00",
+      "summary": "36氪获悉，盒马已内部完成盒马鲜生的管理组织升级，从以主要城市为基本管理单元的城市制，升级为在全国范围内划分的大区制，将以往的19个区域整合为上海大区、华北大区、华中、华南等9个大区。盒马正加紧推进AI时代的数字化变革，设立了由CTO牵头的AI委员会，配置AI BP岗位，优化原有产研工程化架构，实现AI能力与业务需求的直接对接。",
+      "content_preview": "36氪获悉，盒马已内部完成盒马鲜生的管理组织升级，从以主要城市为基本管理单元的城市制，升级为在全国范围内划分的大区制，将以往的19个区域整合为上海大区、华北大区、华中、华南等9个大区。盒马正加紧推进AI时代的数字化变革，设立了由CTO牵头的AI委员会，配置AI BP岗位，优化原有产研工程化架构，实现AI能力与业务需求的直接对接。"
+    },
+    {
+      "title": "千里科技：第一季度营收23.61亿元，同比增长31.37%",
+      "link": "https://36kr.com/newsflashes/3785034706918660?f=rss",
+      "source": "36氪",
+      "source_url": "https://www.36kr.com/feed",
+      "published": "2026-04-27T12:29:19+00:00",
+      "summary": "36氪获悉，千里科技公告，2026年一季度实现营业收入23.61亿元，同比增长31.37%；归属于上市公司股东的净利润达到0.48亿元，同比增长141.31%。",
+      "content_preview": "36氪获悉，千里科技公告，2026年一季度实现营业收入23.61亿元，同比增长31.37%；归属于上市公司股东的净利润达到0.48亿元，同比增长141.31%。"
+    },
+    {
+      "title": "马斯克起诉 OpenAI 案即将开庭，高管日记内容或成案件关键",
+      "link": "https://www.ithome.com/0/944/153.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T12:26:37+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，据路透社报道，埃隆・马斯克与山姆・奥尔特曼执掌的顶尖人工智能企业 OpenAI 之间这场激烈的法律纠纷，最终或许取决于一位高管私人日记里寥寥几页内容。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2025/7/5a808936-e658-4e06-8879-94df764bfee3.png?x-bce-process=image/format,f_auto\" /></p><p>OpenAI 总裁、联",
+      "content_preview": "<p>IT之家 4 月 27 日消息，据路透社报道，埃隆・马斯克与山姆・奥尔特曼执掌的顶尖人工智能企业 OpenAI 之间这场激烈的法律纠纷，最终或许取决于一位高管私人日记里寥寥几页内容。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2025/7/5a808936-e658-4e06-8879-94df764bfee3.png?x-bce-process=image/format,f_auto\" /></p><p>OpenAI 总裁、联合创始人格雷格・布罗克曼在 2017 年秋季写道：“这是我们摆脱埃隆控制的唯一机会。他算得上是我会选择的‘伟大领袖’吗？”</p><p>自 2024 年 OpenAI 原始联合创始人之一马斯克起诉该公司、首席执行官奥尔特曼及布罗克曼以来，法庭已披露数千页内部文件，布罗克曼的日记内容便是其中之一。</p><p>一位涉案知情人士透露，马斯克向 OpenAI 及其最大投资方之一微软索赔 1500 亿美元"
+    },
+    {
+      "title": "谷歌“独霸一方”：截至 2025 年 Q4 掌握全球近 1/4 的 AI 算力",
+      "link": "https://www.ithome.com/0/944/152.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T12:24:59+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，机构 Epoch AI 统计的数据预估，截至 2025 年第四季度，谷歌是<strong>全球最大的单一 AI 算力持有者</strong>，掌握了全球累计 AI 算力的大约四分之一。和其他超大规模云服务商不同，谷歌的算力主要来自自研 TPU 芯片，而不是英伟达 GPU。</p><p>微软和 Meta 同样在研发自行设计的 AI 芯片，然而目前没有纳入追踪范围。该机构判断，这部分芯片<strong>对整体估算结果的影响很小，基本可以忽略</strong>。</p><p>基于 AI Chip Owners 数据库的估算，该机构统计了截至 2025 年第四季度",
+      "content_preview": "<p>IT之家 4 月 27 日消息，机构 Epoch AI 统计的数据预估，截至 2025 年第四季度，谷歌是<strong>全球最大的单一 AI 算力持有者</strong>，掌握了全球累计 AI 算力的大约四分之一。和其他超大规模云服务商不同，谷歌的算力主要来自自研 TPU 芯片，而不是英伟达 GPU。</p><p>微软和 Meta 同样在研发自行设计的 AI 芯片，然而目前没有纳入追踪范围。该机构判断，这部分芯片<strong>对整体估算结果的影响很小，基本可以忽略</strong>。</p><p>基于 AI Chip Owners 数据库的估算，该机构统计了截至 2025 年第四季度，全球四大算力持有者<strong>谷歌、微软、Meta 和亚马逊</strong>分别掌握的累计 AI 算力，并按芯片制造商进行拆分。结果显示，谷歌当时<strong>持有的算力最多</strong>，核心原因是谷歌大量使用自研 TPU 芯片。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploa"
+    },
+    {
+      "title": "菜鸟拟发行公募 REITs，持续加大智慧物流建设",
+      "link": "https://36kr.com/newsflashes/3785028031307008?f=rss",
+      "source": "36氪",
+      "source_url": "https://www.36kr.com/feed",
+      "published": "2026-04-27T12:20:32+00:00",
+      "summary": "36氪获悉，菜鸟集团拟以旗下嘉兴物流园区项目作为底层资产申报发行公募REITs，目前其申报已向中国证监会及深圳证券交易所提交。自2020年REITs在我国试点启动以来，多家物流及相关领域企业已完成物流领域的REITs发行或处于项目推进阶段。",
+      "content_preview": "36氪获悉，菜鸟集团拟以旗下嘉兴物流园区项目作为底层资产申报发行公募REITs，目前其申报已向中国证监会及深圳证券交易所提交。自2020年REITs在我国试点启动以来，多家物流及相关领域企业已完成物流领域的REITs发行或处于项目推进阶段。"
+    },
+    {
+      "title": "打工人五一自救指南：把活全甩给AI，准备免打扰出门",
+      "link": "https://www.qbitai.com/2026/04/408649.html",
+      "source": "量子位",
+      "source_url": "https://www.qbitai.com/feed",
+      "published": "2026-04-27T12:19:37+00:00",
+      "summary": "假期不想被@工作了",
+      "content_preview": "假期不想被@工作了"
+    },
+    {
+      "title": "迈为股份 2026 年一季度净利润 1.18 亿元，同比下降 27.19%",
+      "link": "https://www.ithome.com/0/944/151.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T12:17:00+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，迈为股份今日发布 2026 年一季度报告：</p><ul class=\" list-paddingleft-2\"><li><p><strong>营业总收入</strong>： 13.37 亿元，同比下降 40.02%</p></li><li><p><strong>归母净利润</strong>： 1.18 亿元，同比下降 27.19%</p></li><li><p><strong>扣非净利润</strong>： 7768.80 万元，同比下降 48.42%</p></li><li><p><strong>经营现金流</strong>： 19.50 亿元，同比增",
+      "content_preview": "<p>IT之家 4 月 27 日消息，迈为股份今日发布 2026 年一季度报告：</p><ul class=\" list-paddingleft-2\"><li><p><strong>营业总收入</strong>： 13.37 亿元，同比下降 40.02%</p></li><li><p><strong>归母净利润</strong>： 1.18 亿元，同比下降 27.19%</p></li><li><p><strong>扣非净利润</strong>： 7768.80 万元，同比下降 48.42%</p></li><li><p><strong>经营现金流</strong>： 19.50 亿元，同比增长 654.28%</p></li><li><p><strong>基本每股收益</strong>： 0.42 元 / 股，同比下降 27.59%</p></li><li><p><strong>稀释每股收益</strong>： 0.42 元 / 股，同比下降 27.59%</p></li><li><p><strong>加权平均净资产收益率</strong>： 1.48%，同比下降 0.65%</p>"
+    },
+    {
+      "title": "阳光电源：第一季度净利润22.91亿元，同比下降40.12%",
+      "link": "https://36kr.com/newsflashes/3785006082989061?f=rss",
+      "source": "36氪",
+      "source_url": "https://www.36kr.com/feed",
+      "published": "2026-04-27T12:14:39+00:00",
+      "summary": "36氪获悉，阳光电源公告，2026年第一季度实现营业收入155.61亿元，同比下降18.26%；归属于上市公司股东的净利润为22.91亿元，同比下降40.12%。",
+      "content_preview": "36氪获悉，阳光电源公告，2026年第一季度实现营业收入155.61亿元，同比下降18.26%；归属于上市公司股东的净利润为22.91亿元，同比下降40.12%。"
+    },
+    {
+      "title": "中坚科技：因涉嫌信披违规被证监会立案",
+      "link": "https://36kr.com/newsflashes/3785016631811081?f=rss",
+      "source": "36氪",
+      "source_url": "https://www.36kr.com/feed",
+      "published": "2026-04-27T12:13:45+00:00",
+      "summary": "36氪获悉，中坚科技公告，公司于2026年4月27日收到中国证监会下发的《立案告知书》。因公司涉嫌信息披露违法违规，根据相关法律法规，证监会决定对公司立案。目前，公司各项生产经营活动均正常开展，上述事项不会对公司的正常生产经营活动产生重大影响。立案调查期间，公司将积极配合证监会的各项工作，严格按照相关规定及监管要求履行信息披露义务。",
+      "content_preview": "36氪获悉，中坚科技公告，公司于2026年4月27日收到中国证监会下发的《立案告知书》。因公司涉嫌信息披露违法违规，根据相关法律法规，证监会决定对公司立案。目前，公司各项生产经营活动均正常开展，上述事项不会对公司的正常生产经营活动产生重大影响。立案调查期间，公司将积极配合证监会的各项工作，严格按照相关规定及监管要求履行信息披露义务。"
+    },
+    {
+      "title": "奇瑞汽车董事长尹同跃：鸿蒙智行智界 R7 正在筹备出海，已有海外经销商主动洽谈合作",
+      "link": "https://www.ithome.com/0/944/149.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T12:11:19+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东在昨日进行的鸿蒙智行会客厅直播中表示，智界 R7、S7 凭借溜背轿跑时尚外观以及 896 线激光雷达等，不仅深受国内年轻消费者喜爱，也备受外国友人欢迎。</p><p>同时，奇瑞汽车董事长尹同跃在活动中透露智界 R7 正在筹备出海，调整适配海外各地法规与市场需求的版本，已有海外经销商纷纷主动洽谈合作。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfil",
+      "content_preview": "<p>IT之家 4 月 27 日消息，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东在昨日进行的鸿蒙智行会客厅直播中表示，智界 R7、S7 凭借溜背轿跑时尚外观以及 896 线激光雷达等，不仅深受国内年轻消费者喜爱，也备受外国友人欢迎。</p><p>同时，奇瑞汽车董事长尹同跃在活动中透露智界 R7 正在筹备出海，调整适配海外各地法规与市场需求的版本，已有海外经销商纷纷主动洽谈合作。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/4/41a481f5-376d-45d8-8da6-1fb0df440a0e.jpg?x-bce-process=image/format,f_auto\" /></p><p>据IT之家早些时候报道，在 3 月 23 日的华为春季全场景新品发布会上，<a href=\"https://www.ithome.com/0/931/789.htm\" target=\"_blank\">鸿蒙智行智"
+    },
+    {
+      "title": "大疆官宣 DJI ROMO 2 代扫地机器人 5 月登场",
+      "link": "https://www.ithome.com/0/944/148.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T12:06:29+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，今天晚间，DJI 大疆创新官微宣布：DJI ROMO 2 代，<strong>五月登场</strong>，敬请期待。</p><p style=\"text-align: center;\"><a class=\"ithome_super_player\" contenteditable=\"false\" href=\"https://weibo.com/3775048831/QCLSMbSSP\" target=\"_blank\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/c9f2324b-2991-4",
+      "content_preview": "<p>IT之家 4 月 27 日消息，今天晚间，DJI 大疆创新官微宣布：DJI ROMO 2 代，<strong>五月登场</strong>，敬请期待。</p><p style=\"text-align: center;\"><a class=\"ithome_super_player\" contenteditable=\"false\" href=\"https://weibo.com/3775048831/QCLSMbSSP\" target=\"_blank\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/c9f2324b-2991-4561-8cd3-94fc4ef609aa.jpg?x-bce-process=image/format,f_auto\" /></a></p><p>官方发布的预告依旧“言简意赅”，暂时无法提供关于产品本身的更多信息，IT之家将持续关注。</p><p>大疆首款扫地机器人 ROMO 系列于 2025 年 8 月发布，具备“旗舰无人机的精密感知与机电技术”，还有自清洁功能。</p><p style=\"t"
+    },
+    {
+      "title": "完美世界：第一季度净利润1.03亿元，同比下降66.02%",
+      "link": "https://36kr.com/newsflashes/3784998370467078?f=rss",
+      "source": "36氪",
+      "source_url": "https://www.36kr.com/feed",
+      "published": "2026-04-27T12:06:17+00:00",
+      "summary": "36氪获悉，完美世界公告，2026年第一季度营收为11.71亿元，同比下降42.11%；净利润为1.03亿元，同比下降66.02%。",
+      "content_preview": "36氪获悉，完美世界公告，2026年第一季度营收为11.71亿元，同比下降42.11%；净利润为1.03亿元，同比下降66.02%。"
+    },
+    {
+      "title": "半导体供应链中微公司 2026 年一季度净利润 9.30 亿元，同比增长 197.20%",
+      "link": "https://www.ithome.com/0/944/147.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T12:06:04+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，中微公司今日发布 2026 年一季度报告：</p><ul class=\" list-paddingleft-2\"><li><p><strong>营业总收入</strong>： 29.15 亿元，同比增长 34.13%</p></li><li><p><strong>归母净利润</strong>： 9.30 亿元，同比增长 197.20%</p></li><li><p><strong>扣非净利润</strong>： 4.78 亿元，同比增长 60.09%</p></li><li><p><strong>经营现金流</strong>： -1.59 亿元，同比下降 ",
+      "content_preview": "<p>IT之家 4 月 27 日消息，中微公司今日发布 2026 年一季度报告：</p><ul class=\" list-paddingleft-2\"><li><p><strong>营业总收入</strong>： 29.15 亿元，同比增长 34.13%</p></li><li><p><strong>归母净利润</strong>： 9.30 亿元，同比增长 197.20%</p></li><li><p><strong>扣非净利润</strong>： 4.78 亿元，同比增长 60.09%</p></li><li><p><strong>经营现金流</strong>： -1.59 亿元，同比下降 142.12%</p></li><li><p><strong>基本每股收益</strong>： 1.48 元 / 股，同比增长 196.00%</p></li><li><p><strong>稀释每股收益</strong>： 1.47 元 / 股，同比增长 194.00%</p></li><li><p><strong>加权平均净资产收益率</strong>： 4.00%，同比增加 2.43 个百分点"
+    },
+    {
+      "title": "阿里巴巴：拟议分拆获香港联交所批准",
+      "link": "https://36kr.com/newsflashes/3785021397114118?f=rss",
+      "source": "36氪",
+      "source_url": "https://www.36kr.com/feed",
+      "published": "2026-04-27T12:02:52+00:00",
+      "summary": "36氪获悉， 阿里巴巴公告，董事会欣然宣布，于2026年3月13日，香港联交所已确认，本公司可于深交所进行基础设施REIT的拟议分拆。香港联交所亦已授予本公司一项豁免，豁免本公司严格遵守香港上市规则第15项应用指引第3(f)段项下向股东提供保证配额的规定。",
+      "content_preview": "36氪获悉， 阿里巴巴公告，董事会欣然宣布，于2026年3月13日，香港联交所已确认，本公司可于深交所进行基础设施REIT的拟议分拆。香港联交所亦已授予本公司一项豁免，豁免本公司严格遵守香港上市规则第15项应用指引第3(f)段项下向股东提供保证配额的规定。"
+    },
+    {
+      "title": "AI 芯片需求激增，ASML 计划今年生产至少 60 台极紫外光刻机",
+      "link": "https://www.ithome.com/0/944/146.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T12:02:42+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，随着全球人工智能基础设施投资热潮兴起，高端光刻设备需求持续攀升，阿斯麦（ASML）正以半导体设备行业罕见的速度扩大产能。这家荷兰企业不仅提升了极紫外（EUV）光刻机的产量，还重新调整厂区布局、扩充无尘车间规模，并投入数十亿欧元资本开支以满足市场需求。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/4/bf4630bd-62e0-4f54-bb33-5198c0133973.png?x-bce",
+      "content_preview": "<p>IT之家 4 月 27 日消息，随着全球人工智能基础设施投资热潮兴起，高端光刻设备需求持续攀升，阿斯麦（ASML）正以半导体设备行业罕见的速度扩大产能。这家荷兰企业不仅提升了极紫外（EUV）光刻机的产量，还重新调整厂区布局、扩充无尘车间规模，并投入数十亿欧元资本开支以满足市场需求。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/4/bf4630bd-62e0-4f54-bb33-5198c0133973.png?x-bce-process=image/format,f_auto\" /></p><p>阿斯麦预计今年至少量产 60 台极紫外光刻机，较 2025 年大幅增长，下一阶段年产能将进一步提升至至少 80 台。与此同时，公司正着力提升设备产能效率，通过技术升级让部分光刻机每小时能够加工更多晶圆。</p><p>极紫外光刻机是目前量产设备中结构最复杂的精密设备之一，其生产制造存在诸多瓶颈。单台极紫外光刻机的组装周期长"
+    },
+    {
+      "title": "消息称“苹果 20 周年版 iPhone”四曲面设计专注视觉观感，利用光学折射实现“液态玻璃”效果",
+      "link": "https://www.ithome.com/0/944/145.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T12:01:53+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，<span class=\"no-auto-spacing\">博主 @i冰宇宙 发文</span>，透露苹果 20 周年版 iPhone 采用的四曲面设计与以往友商的四曲面设计存在差异，更强调视觉观感，利用光学折射营造出一种“既看不到边框，又不影响边缘视觉的观感”，有望实现物理级别的“液态玻璃”效果。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/4/8ba0daa2-5701-4658-a5",
+      "content_preview": "<p>IT之家 4 月 27 日消息，<span class=\"no-auto-spacing\">博主 @i冰宇宙 发文</span>，透露苹果 20 周年版 iPhone 采用的四曲面设计与以往友商的四曲面设计存在差异，更强调视觉观感，利用光学折射营造出一种“既看不到边框，又不影响边缘视觉的观感”，有望实现物理级别的“液态玻璃”效果。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/4/8ba0daa2-5701-4658-a5bb-066b9256e6c7.jpg?x-bce-process=image/format,f_auto\" /></p><p>IT之家注意到，此前有消息称<a href=\"https://www.ithome.com/0/943/310.htm\" target=\"_blank\">这款 20 周年版 iPhone 采用的四曲面将由三星出品</a>，整体曲率不大，同时其曲面部分可显示信息，并支持触控"
+    },
+    {
+      "title": "限时置换价 25.48 万元起，领克 900 大五座 SUV 上市",
+      "link": "https://www.ithome.com/0/944/144.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T12:00:43+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，在今天的发布会中，领克 900 大五座版本正式上市，该车号称是基于百亿级大型电混车专属架构 SPA Evo 打造的同级最大混动五座 SUV，<strong>定价为 29.98 万元起，上市限时置换价 25.48 万元起</strong>。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/dcc39274-9dfa-4992-ae3b-d530fe5f9b26.png?x-bce-process=image/format,f_a",
+      "content_preview": "<p>IT之家 4 月 27 日消息，在今天的发布会中，领克 900 大五座版本正式上市，该车号称是基于百亿级大型电混车专属架构 SPA Evo 打造的同级最大混动五座 SUV，<strong>定价为 29.98 万元起，上市限时置换价 25.48 万元起</strong>。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/dcc39274-9dfa-4992-ae3b-d530fe5f9b26.png?x-bce-process=image/format,f_auto\" /></p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/270cfb2f-cc67-4f5d-93a3-eb7874caf387.png?x-bce-process=image/format,f_auto\" /></p><p style=\"text-align"
+    },
+    {
+      "title": "协创数据：第一季度净利润7.50亿元，同比增长343.45%",
+      "link": "https://36kr.com/newsflashes/3784989501218048?f=rss",
+      "source": "36氪",
+      "source_url": "https://www.36kr.com/feed",
+      "published": "2026-04-27T11:59:02+00:00",
+      "summary": "36氪获悉，协创数据公告，2026年第一季度实现营业收入60.85亿元，同比增长192.90%；归属于上市公司股东的净利润为7.50亿元，同比增长343.45%。",
+      "content_preview": "36氪获悉，协创数据公告，2026年第一季度实现营业收入60.85亿元，同比增长192.90%；归属于上市公司股东的净利润为7.50亿元，同比增长343.45%。"
+    },
+    {
+      "title": "蔚来乐道 L80 大五座 SUV 更多官图公布：明起预售，全球旗舰级智能软硬件上车",
+      "link": "https://www.ithome.com/0/944/143.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T11:57:57+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，蔚来旗下乐道汽车今天公布了新车 —— 乐道 L80 的更多官图。此前信息显示，新车将于 4 月 28 日（IT之家注：明天）开启预售，定位智能双舱大五座旗舰 SUV，与乐道 L90 组成乐道旗舰双子星，并将拥有<strong>全球旗舰级智能软硬件</strong>。</p><p style=\"text-align: center;\"><img alt=\"008C83ysly1iclai6oib7j32bc1jlqv6.jpg (3000×2001)\" class=\"no-alt-img\" src=\"https://img.ithome.com/newsup",
+      "content_preview": "<p>IT之家 4 月 27 日消息，蔚来旗下乐道汽车今天公布了新车 —— 乐道 L80 的更多官图。此前信息显示，新车将于 4 月 28 日（IT之家注：明天）开启预售，定位智能双舱大五座旗舰 SUV，与乐道 L90 组成乐道旗舰双子星，并将拥有<strong>全球旗舰级智能软硬件</strong>。</p><p style=\"text-align: center;\"><img alt=\"008C83ysly1iclai6oib7j32bc1jlqv6.jpg (3000×2001)\" class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/4/794d3b26-5040-43b5-aa70-07172db5f8ad.jpg?x-bce-process=image/format,f_auto\" /></p><p style=\"text-align: center;\"><img alt=\"008C83ysly1iclai02qajj32bc1jl1kx.jpg (3000×2001)\" class=\"no-"
+    },
+    {
+      "title": "工业自动化公司汇川技术 2026 年一季度净利润 10.13 亿元，同比下降 23.39%",
+      "link": "https://www.ithome.com/0/944/142.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T11:52:11+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，汇川技术今日发布 2026 年一季度报告：</p><ul class=\" list-paddingleft-2\"><li><p><strong>营业总收入</strong>： 101.43 亿元，同比增长 12.98%</p></li><li><p><strong>归母净利润</strong>： 10.13 亿元，同比下降 23.39%</p></li><li><p><strong>扣非净利润</strong>： 10.46 亿元，同比下降 15.25%</p></li><li><p><strong>经营现金流</strong>： 0.94 亿元，同比下降",
+      "content_preview": "<p>IT之家 4 月 27 日消息，汇川技术今日发布 2026 年一季度报告：</p><ul class=\" list-paddingleft-2\"><li><p><strong>营业总收入</strong>： 101.43 亿元，同比增长 12.98%</p></li><li><p><strong>归母净利润</strong>： 10.13 亿元，同比下降 23.39%</p></li><li><p><strong>扣非净利润</strong>： 10.46 亿元，同比下降 15.25%</p></li><li><p><strong>经营现金流</strong>： 0.94 亿元，同比下降 64.18%</p></li><li><p><strong>基本每股收益</strong>： 0.37 元 / 股，同比下降 24.49%</p></li><li><p><strong>稀释每股收益</strong>： 0.37 元 / 股，同比下降 24.49%</p></li><li><p><strong>加权平均净资产收益率</strong>： 2.83%，同比减少 1.77 个百分点</"
+    },
+    {
+      "title": "vivo TWS 5i 真无线耳机开售：50 小时超长续航，售 119 元",
+      "link": "https://www.ithome.com/0/944/141.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T11:51:57+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，今日，vivo 官方正式宣布新款真无线耳机 vivo TWS 5i 开售，该耳机售价 119 元，主打“超长续航”与“悦享原声”。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/4/3ea7341f-f54b-493f-941b-61e9c6aa02dd.jpg?x-bce-process=image/format,f_auto\" /></p><p>vivo TWS 5i 耳机单次充电可连续",
+      "content_preview": "<p>IT之家 4 月 27 日消息，今日，vivo 官方正式宣布新款真无线耳机 vivo TWS 5i 开售，该耳机售价 119 元，主打“超长续航”与“悦享原声”。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/4/3ea7341f-f54b-493f-941b-61e9c6aa02dd.jpg?x-bce-process=image/format,f_auto\" /></p><p>vivo TWS 5i 耳机单次充电可连续使用 11.5 小时；配合充电仓使用，总续航时间更是高达 50 小时。</p><p>在连接技术上，该耳机采用了蓝牙 5.4 协议，支持多设备双连接功能，用户可以在平板与手机之间实现丝滑切换。针对游戏玩家，vivo TWS 5i 提供了 42ms 全链路游戏低延迟，确保音画同步，提升竞技体验。</p><p>音质方面，vivo TWS 5i 搭载了 DeepX 3.0 立体声效，提供多种声音风格供用户"
+    },
+    {
+      "title": "天齐锂业：一季度净利润18.76亿元，同比增长1699.12%",
+      "link": "https://36kr.com/newsflashes/3784999387405314?f=rss",
+      "source": "36氪",
+      "source_url": "https://www.36kr.com/feed",
+      "published": "2026-04-27T11:47:30+00:00",
+      "summary": "36氪获悉，天齐锂业公告，2026年第一季度营收为51.28亿元，同比增长98.44%；净利润为18.76亿元，同比增长1699.12%。",
+      "content_preview": "36氪获悉，天齐锂业公告，2026年第一季度营收为51.28亿元，同比增长98.44%；净利润为18.76亿元，同比增长1699.12%。"
+    },
+    {
+      "title": "新能源电池供应链阳光电源 2026 年一季度净利润 22.91 亿元，同比下降 40.12%",
+      "link": "https://www.ithome.com/0/944/140.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T11:44:30+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，阳光电源今日发布 2026 年一季度报告：</p><ul class=\" list-paddingleft-2\"><li><p><strong>营业总收入</strong>： 155.61 亿元，同比下降 18.26%</p></li><li><p><strong>归母净利润</strong>： 22.91 亿元，同比下降 40.12%</p></li><li><p><strong>扣非净利润</strong>： 20.32 亿元，同比下降 44.72%</p></li><li><p><strong>经营现金流</strong>： 12.08 亿元，同比下",
+      "content_preview": "<p>IT之家 4 月 27 日消息，阳光电源今日发布 2026 年一季度报告：</p><ul class=\" list-paddingleft-2\"><li><p><strong>营业总收入</strong>： 155.61 亿元，同比下降 18.26%</p></li><li><p><strong>归母净利润</strong>： 22.91 亿元，同比下降 40.12%</p></li><li><p><strong>扣非净利润</strong>： 20.32 亿元，同比下降 44.72%</p></li><li><p><strong>经营现金流</strong>： 12.08 亿元，同比下降 32.50%</p></li><li><p><strong>基本每股收益</strong>： 1.12 元 / 股，同比下降 39.46%</p></li><li><p><strong>稀释每股收益</strong>： 1.11 元 / 股，同比下降 40.00%</p></li><li><p><strong>加权平均净资产收益率</strong>： 4.81%，同比下降 4.58%</p><"
+    },
+    {
+      "title": "未岚大陆第100万台智能割草机器人下线，马来西亚产线已完成、全面启动生产｜最前线",
+      "link": "https://36kr.com/p/3784879395134465?f=rss",
+      "source": "36氪",
+      "source_url": "https://www.36kr.com/feed",
+      "published": "2026-04-27T11:41:44+00:00",
+      "summary": "<p>作者｜黄楠</p>\n  <p>编辑｜袁斯来</p>\n  <p>近日，智能割草机器人公司未岚大陆第100万台智能割草机器人下线仪式在其常州研发生产基地举办。未岚大陆CEO任冠佼、总裁兼CTO陈子冲、德国莱茵TÜV电子电气产品服务全球高级副总裁郝福来（Frank Holzmann）等出席仪式。</p>\n  <p>在割草机器人赛道竞争白热化的节点，百万台是对技术路线选择、供应链韧性与全球化布局的一次系统验证。从2021年发布第一款无边界智能割草机器人，到2026年累计量产突破100万台，未岚大陆的路径勾勒了一家中国庭院机器人公司的崛起曲线。</p>\n  <p class=\"image-wrap",
+      "content_preview": "<p>作者｜黄楠</p>\n  <p>编辑｜袁斯来</p>\n  <p>近日，智能割草机器人公司未岚大陆第100万台智能割草机器人下线仪式在其常州研发生产基地举办。未岚大陆CEO任冠佼、总裁兼CTO陈子冲、德国莱茵TÜV电子电气产品服务全球高级副总裁郝福来（Frank Holzmann）等出席仪式。</p>\n  <p>在割草机器人赛道竞争白热化的节点，百万台是对技术路线选择、供应链韧性与全球化布局的一次系统验证。从2021年发布第一款无边界智能割草机器人，到2026年累计量产突破100万台，未岚大陆的路径勾勒了一家中国庭院机器人公司的崛起曲线。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260427/v2_a42ad998120340b699511c5956253c41@6022551_oswg2637929oswg2010oswg1336_img_png?x-oss-process=image/quality,q_80/format,jpg/interlace,1\" /></p>\n"
+    },
+    {
+      "title": "Meta 签天基太阳能协议，数据中心 2030 年前将用上太空电力",
+      "link": "https://www.ithome.com/0/944/139.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T11:41:24+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，Meta 公司已与 Overview Energy 签署协议，将在本十年末前，从这家初创企业的天基太阳能基础设施获取电力，供其旗下数据中心使用。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2025/7/b6321fc4-703c-4c81-aa07-6f7679954c39.png?x-bce-process=image/format,f_auto\" /></p><p>Overview Energ",
+      "content_preview": "<p>IT之家 4 月 27 日消息，Meta 公司已与 Overview Energy 签署协议，将在本十年末前，从这家初创企业的天基太阳能基础设施获取电力，供其旗下数据中心使用。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2025/7/b6321fc4-703c-4c81-aa07-6f7679954c39.png?x-bce-process=image/format,f_auto\" /></p><p>Overview Energy 正在研发一套系统，可在太空收集太阳能并定向传输至地面设施，实现全天候发电。两家公司表示，该系统首次轨道示范预计于 2028 年进行，商业送电则定于 2030 年。</p><p>协议还赋予 Meta 优先获取 Overview Energy 系统最高 1 吉瓦（GW）电力容量的权利。交易财务条款未予披露。</p><p>Meta 能源与可持续发展副总裁纳特・萨尔斯特伦（Nat Sahlstrom）"
+    },
+    {
+      "title": "白银有色：2025年净亏损7.55亿元",
+      "link": "https://36kr.com/newsflashes/3784983442840585?f=rss",
+      "source": "36氪",
+      "source_url": "https://www.36kr.com/feed",
+      "published": "2026-04-27T11:41:10+00:00",
+      "summary": "36氪获悉，白银有色公告，2025年营业收入854.58亿元，同比下降1.53%。归属于上市公司股东的净亏损7.55亿元，上年同期净利润8079.17万元。",
+      "content_preview": "36氪获悉，白银有色公告，2025年营业收入854.58亿元，同比下降1.53%。归属于上市公司股东的净亏损7.55亿元，上年同期净利润8079.17万元。"
+    },
+    {
+      "title": "金信诺：第一季度净利润2112.73万元，同比增长560.40%",
+      "link": "https://36kr.com/newsflashes/3784982030720262?f=rss",
+      "source": "36氪",
+      "source_url": "https://www.36kr.com/feed",
+      "published": "2026-04-27T11:37:42+00:00",
+      "summary": "36氪获悉，金信诺公告，2026年第一季度实现营业收入6.74亿元，同比增长19.66%；归属于上市公司股东的净利润为2112.73万元，同比增长560.40%。",
+      "content_preview": "36氪获悉，金信诺公告，2026年第一季度实现营业收入6.74亿元，同比增长19.66%；归属于上市公司股东的净利润为2112.73万元，同比增长560.40%。"
+    },
+    {
+      "title": "2026 款 HMD 102 功能机曝光，仍配备 Micro USB 接口",
+      "link": "https://www.ithome.com/0/944/138.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T11:36:56+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，消息源 smashx_60 现已曝光了 2026 款 HMD 102 2G 功能机，该机在 2026 年的今天仍配备了 Micro USB 接口，主要升级为 2G 双卡双待，作为比较，<strong>现款 HMD 102 功能机国行定价 169 元</strong>。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/481cb755-2995-426f-ba54-6bb2b8eafe5a.jpg?x-bce-process=i",
+      "content_preview": "<p>IT之家 4 月 27 日消息，消息源 smashx_60 现已曝光了 2026 款 HMD 102 2G 功能机，该机在 2026 年的今天仍配备了 Micro USB 接口，主要升级为 2G 双卡双待，作为比较，<strong>现款 HMD 102 功能机国行定价 169 元</strong>。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/481cb755-2995-426f-ba54-6bb2b8eafe5a.jpg?x-bce-process=image/format,f_auto\" /></p><p>该机配备一块 1.8 英寸 160x128 分辨率 IPS 面板，后置 QVGA 摄像头。手机配备 1000 毫安时可拆卸电池，搭载 Micro USB 2.75W 接口，使用 S30+ 系统。同时参考 HMD 预热的 Tag，预计该机仍有望推出“诺基亚”品牌版本。</p><p style=\"text-align: center;\"><im"
+    },
+    {
+      "title": "摩根大通据悉将把巴黎部分的交易员迁至伦敦",
+      "link": "https://36kr.com/newsflashes/3784963774602247?f=rss",
+      "source": "36氪",
+      "source_url": "https://www.36kr.com/feed",
+      "published": "2026-04-27T11:32:04+00:00",
+      "summary": "知情人士透露，摩根大通正将部分职位从巴黎迁至伦敦，部分原因是高管们认为自己高估了为符合脱欧后规定而须驻欧盟所需人员的数量。 知情人士透露，其他原因也促成了该美国银行的这项决定，其中包括利率交易员在内的员工将调任。由于涉及未公开信息，知情人士要求匿名。（新浪财经）",
+      "content_preview": "知情人士透露，摩根大通正将部分职位从巴黎迁至伦敦，部分原因是高管们认为自己高估了为符合脱欧后规定而须驻欧盟所需人员的数量。 知情人士透露，其他原因也促成了该美国银行的这项决定，其中包括利率交易员在内的员工将调任。由于涉及未公开信息，知情人士要求匿名。（新浪财经）"
+    },
+    {
+      "title": "北京人工智能产投基金等入股新石器无人车关联公司",
+      "link": "https://36kr.com/newsflashes/3784964389477377?f=rss",
+      "source": "36氪",
+      "source_url": "https://www.36kr.com/feed",
+      "published": "2026-04-27T11:26:48+00:00",
+      "summary": "36氪获悉，爱企查App显示，近日，新石器无人车关联公司新石器慧通（北京）科技有限公司发生工商变更，新增北京市人工智能产业投资基金（有限合伙）、北京中移数字新经济产业基金合伙企业（有限合伙）等为股东，同时注册资本增至5016.85万元人民币。该公司成立于2018年，经营范围包括人工智能应用软件开发、物联网设备制造、人工智能行业应用系统集成服务、服务消费机器人制造等。",
+      "content_preview": "36氪获悉，爱企查App显示，近日，新石器无人车关联公司新石器慧通（北京）科技有限公司发生工商变更，新增北京市人工智能产业投资基金（有限合伙）、北京中移数字新经济产业基金合伙企业（有限合伙）等为股东，同时注册资本增至5016.85万元人民币。该公司成立于2018年，经营范围包括人工智能应用软件开发、物联网设备制造、人工智能行业应用系统集成服务、服务消费机器人制造等。"
+    },
+    {
+      "title": "氪星晚报｜五一假期约600万人次进出香港；谷歌将在韩国新建人工智能园区，韩国总统府证实；英国大型企业普遍不清楚自身数据在海外被人工智能如何使用",
+      "link": "https://36kr.com/p/3784957482523648?f=rss",
+      "source": "36氪",
+      "source_url": "https://www.36kr.com/feed",
+      "published": "2026-04-27T11:25:19+00:00",
+      "summary": "<h2><strong>大公司：</strong></h2>\n  <p><a href=\"https://36kr.com/newsflashes/3784924206750979\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>谷歌将在韩国新建人工智能园区，韩国总统府证实</strong></a></p>\n  <p>韩国总统政策顾问金龙范于周一表示，韩国政府与谷歌达成协议，将在首尔共建一座人工智能园区，深化谷歌与韩国本土技术人才、初创企业的合作。金龙范介绍，韩国总统李在明当日在首尔会见了谷歌深度思维（DeepMind）首席执行官德米斯・哈",
+      "content_preview": "<h2><strong>大公司：</strong></h2>\n  <p><a href=\"https://36kr.com/newsflashes/3784924206750979\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>谷歌将在韩国新建人工智能园区，韩国总统府证实</strong></a></p>\n  <p>韩国总统政策顾问金龙范于周一表示，韩国政府与谷歌达成协议，将在首尔共建一座人工智能园区，深化谷歌与韩国本土技术人才、初创企业的合作。金龙范介绍，韩国总统李在明当日在首尔会见了谷歌深度思维（DeepMind）首席执行官德米斯・哈萨比斯。韩国科学技术部与谷歌就此人工智能园区项目签署了合作谅解备忘录。</p>\n  <p><a href=\"https://36kr.com/newsflashes/3784886779649284\" rel=\"noopener noreferrer\" target=\"_blank\"><strong>法国汽车零部件供应商Forvia 21亿美元出售汽车内饰业务</strong></a></p>\n "
+    },
+    {
+      "title": "乘联会：2026 年 4 月乘用车零售预计 142.0 万辆，新能源渗透率突破 60%",
+      "link": "https://www.ithome.com/0/944/135.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T11:24:30+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，乘联会今天公布了新一期乘用车市场预测数据，初步推算 2026 年 4 月（本月）狭义乘用车总市场约为 142 万辆，<strong>其中新能源零售可达 86 万左右，渗透率突破 60%</strong>。</p><p>乘联会表示，多数厂商对 4 月的销售预期趋于谨慎乐观态度。最新调研结果显示，占市场总销量七成以上的头部厂商，本月零售目标环比回落，符合传统季节性规律。结合终端走势初步推算，4 月狭义乘用车零售市场规模约为 142 万辆，环比-13.8%。其中新能源零售量预计为 86 万左右，较上月持平微增，渗透率约 60.6%。燃油车市场随着价格体系与油价逐",
+      "content_preview": "<p>IT之家 4 月 27 日消息，乘联会今天公布了新一期乘用车市场预测数据，初步推算 2026 年 4 月（本月）狭义乘用车总市场约为 142 万辆，<strong>其中新能源零售可达 86 万左右，渗透率突破 60%</strong>。</p><p>乘联会表示，多数厂商对 4 月的销售预期趋于谨慎乐观态度。最新调研结果显示，占市场总销量七成以上的头部厂商，本月零售目标环比回落，符合传统季节性规律。结合终端走势初步推算，4 月狭义乘用车零售市场规模约为 142 万辆，环比-13.8%。其中新能源零售量预计为 86 万左右，较上月持平微增，渗透率约 60.6%。燃油车市场随着价格体系与油价逐步企稳，部分刚需置换需求有望温和释放，预计月内走势保持平稳。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/4/bb9d2000-12b9-4e25-b976-4fc8b323892d.png?x-bce-process=image"
+    },
+    {
+      "title": "1999 元起：vivo Y600 Pro 手机发布，搭载 10200mAh 耐低温超大电池、6.83 英寸 1.5K 屏",
+      "link": "https://www.ithome.com/0/944/134.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T11:24:27+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，vivo Y600 Pro 手机现已发布，新品主打 10200mAh 耐低温超大电池，配备 6.83 英寸 1.5K 护眼屏，提供皓月黑、浮光金、星曜紫、浩渺蓝四种配色，<strong>首销零售价 1999 元起</strong>。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/fa1ec445-2999-4c2c-89c2-d4561545605d.jpg?x-bce-process=image/format,f_auto",
+      "content_preview": "<p>IT之家 4 月 27 日消息，vivo Y600 Pro 手机现已发布，新品主打 10200mAh 耐低温超大电池，配备 6.83 英寸 1.5K 护眼屏，提供皓月黑、浮光金、星曜紫、浩渺蓝四种配色，<strong>首销零售价 1999 元起</strong>。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/fa1ec445-2999-4c2c-89c2-d4561545605d.jpg?x-bce-process=image/format,f_auto\" /></p><p>IT之家附该机各版本售价如下：</p><ul class=\" list-paddingleft-2\"><li><p>8+128GB：零售价 1999 元，国补到手价 1699 元</p></li><li><p>8+256GB：零售价 2299 元，国补到手价 1954 元</p></li><li><p>8+512GB/12+256GB：零售价 2599 元，国补到手价 220"
+    },
+    {
+      "title": "天赐材料：第一季度净利润16.54亿元，同比增长1006%",
+      "link": "https://36kr.com/newsflashes/3784981371886598?f=rss",
+      "source": "36氪",
+      "source_url": "https://www.36kr.com/feed",
+      "published": "2026-04-27T11:22:09+00:00",
+      "summary": "36氪获悉，天赐材料公告，2026年第一季度实现营业收入66.73亿元，同比增长91.29%；归属于上市公司股东的净利润为16.54亿元，同比增长1005.75%。",
+      "content_preview": "36氪获悉，天赐材料公告，2026年第一季度实现营业收入66.73亿元，同比增长91.29%；归属于上市公司股东的净利润为16.54亿元，同比增长1005.75%。"
+    },
+    {
+      "title": "多国央行集体甩卖黄金",
+      "link": "https://36kr.com/newsflashes/3784961769479172?f=rss",
+      "source": "36氪",
+      "source_url": "https://www.36kr.com/feed",
+      "published": "2026-04-27T11:20:07+00:00",
+      "summary": "又有一家央行“甩卖”黄金，今年第一季度，阿塞拜疆国家石油基金出售了约22吨黄金。根据该基金的季度报告，此次出售的黄金储备按当前价格计算价值超过30亿美元，标志着自2012年开始购入黄金以来，该基金首次减持���金储备。而此前土耳其、俄罗斯、波兰等国央行也采取了类似举动。 (中新经纬)",
+      "content_preview": "又有一家央行“甩卖”黄金，今年第一季度，阿塞拜疆国家石油基金出售了约22吨黄金。根据该基金的季度报告，此次出售的黄金储备按当前价格计算价值超过30亿美元，标志着自2012年开始购入黄金以来，该基金首次减持���金储备。而此前土耳其、俄罗斯、波兰等国央行也采取了类似举动。 (中新经纬)"
+    },
+    {
+      "title": "宏碁推出非凡 Go AI 笔记本电脑：16\"，Ultra X7 358H，到手 12999 元",
+      "link": "https://www.ithome.com/0/944/133.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T11:19:40+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，宏碁 (Acer) 现已推出非凡 Swift Go AI 笔记本电脑。其搭载英特尔酷睿 Ultra X7 处理器 358H，配备 16\" 2.8K 120Hz OLED 屏幕，存储器组合为 32GB + 1TB，集成 71Wh 电池，轻至 1.36kg、薄至 15.7mm，<strong>国家补贴后 12999 元</strong>。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/1ae84fc1-e0e0-4b3e-933",
+      "content_preview": "<p>IT之家 4 月 27 日消息，宏碁 (Acer) 现已推出非凡 Swift Go AI 笔记本电脑。其搭载英特尔酷睿 Ultra X7 处理器 358H，配备 16\" 2.8K 120Hz OLED 屏幕，存储器组合为 32GB + 1TB，集成 71Wh 电池，轻至 1.36kg、薄至 15.7mm，<strong>国家补贴后 12999 元</strong>。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/1ae84fc1-e0e0-4b3e-9331-7609e8336b2b.jpg?x-bce-process=image/format,f_auto\" /></p><p>非凡 Go AI 搭载双风扇双铜管散热系统，<strong>整机性能释放达 45W</strong>。其具备 DTS:X Ultra 算法音频系统，配备 5MP 摄像头，集成 7.1\" 超大浮光玻璃触控板，支持 Wi-Fi 7 连接，提供 2 个雷电 4、1 个 USB-A"
+    },
+    {
+      "title": "千问首发灰测HappyHorse模型",
+      "link": "https://36kr.com/newsflashes/3784975155911686?f=rss",
+      "source": "36氪",
+      "source_url": "https://www.36kr.com/feed",
+      "published": "2026-04-27T11:15:50+00:00",
+      "summary": "4月27日，千问App首发灰测阿里视频模型HappyHorse，用户点击首页下方“HappyHorse”按钮即可体验。据了解，Happy Horse 1.0支持15秒多镜头叙事、多画幅适配及1080P超分输出，并在画面质感、叙事能力、人物表现、音画同步和风格多样性上表现突出。",
+      "content_preview": "4月27日，千问App首发灰测阿里视频模型HappyHorse，用户点击首页下方“HappyHorse”按钮即可体验。据了解，Happy Horse 1.0支持15秒多镜头叙事、多画幅适配及1080P超分输出，并在画面质感、叙事能力、人物表现、音画同步和风格多样性上表现突出。"
+    },
+    {
+      "title": "阿里：视频生成模型 HappyHorse1.0 开启灰测，千问 App 首发支持 15 秒多镜头叙事",
+      "link": "https://www.ithome.com/0/944/132.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T11:13:01+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，今天傍晚，阿里巴巴宣布视频生成模型 HappyHorse1.0 开启灰测。据了解，全球专业创作者和企业级客户可在 HappyHorse 官网和阿里云百炼平台注册使用，大众用户可在千问 App 体验。官网 720P 视频生成刊例价 0.9 元 / 秒。</p><p>据IT之家了解，将千问 App 更新至最新版，点击首页下方“HappyHorse”按钮即可体验。作为阿里巴巴最新发布的多模态视频生成模型，HappyHorse 1.0 支持 15 秒多镜头叙事、多画幅适配及 1080P 超分输出，720P 视频生成低至 0.44 元 / 秒。</p><p styl",
+      "content_preview": "<p>IT之家 4 月 27 日消息，今天傍晚，阿里巴巴宣布视频生成模型 HappyHorse1.0 开启灰测。据了解，全球专业创作者和企业级客户可在 HappyHorse 官网和阿里云百炼平台注册使用，大众用户可在千问 App 体验。官网 720P 视频生成刊例价 0.9 元 / 秒。</p><p>据IT之家了解，将千问 App 更新至最新版，点击首页下方“HappyHorse”按钮即可体验。作为阿里巴巴最新发布的多模态视频生成模型，HappyHorse 1.0 支持 15 秒多镜头叙事、多画幅适配及 1080P 超分输出，720P 视频生成低至 0.44 元 / 秒。</p><p style=\"text-align: center;\"><img alt=\"图片\" src=\"https://img.ithome.com/newsuploadfiles/2026/4/29cfad1c-0fd3-4f2f-a5bd-d91c0411fb2a.jpg?x-bce-process=image/format,f_auto\" /></p><p>同时，在千问上，还可体验用 HappyHorse 创"
+    },
+    {
+      "title": "宏碁 990g 轻薄本非凡 Go Edge 上市：Ultra 7 355，国补后 11999 元",
+      "link": "https://www.ithome.com/0/944/131.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T11:11:53+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，宏碁 (Acer) 今日宣布非凡 Swift Go Edge 轻薄笔记本正式上市。该型号搭载英特尔 Ultra 7 处理器 355，<strong>采用 14\" 2.8K 120Hz OLED 屏幕</strong>，配备 16GB LPDDR5X-8533 内存和 1TB PCIe Gen4 M.2 SSD 存储，<strong>定价 13499 元</strong>、<strong>国补后 11999 元</strong>。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.c",
+      "content_preview": "<p>IT之家 4 月 27 日消息，宏碁 (Acer) 今日宣布非凡 Swift Go Edge 轻薄笔记本正式上市。该型号搭载英特尔 Ultra 7 处理器 355，<strong>采用 14\" 2.8K 120Hz OLED 屏幕</strong>，配备 16GB LPDDR5X-8533 内存和 1TB PCIe Gen4 M.2 SSD 存储，<strong>定价 13499 元</strong>、<strong>国补后 11999 元</strong>。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/a9ce838c-4bb7-45a3-907a-a30a65d0c7fe.jpg?x-bce-process=image/format,f_auto\" /></p><p>非凡 Go Edge 机身整体呈现“珠光雅白”配色，<strong>A 面为镁合金</strong>、<strong>C/D 两面为镁铝合金</strong>，内置 65Wh 电"
+    },
+    {
+      "title": "索尼 INZONE 英纵 H6 Air 开放式电竞耳机发售：199g 重量、40mm 动圈，1399 元",
+      "link": "https://www.ithome.com/0/944/130.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T11:08:53+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，索尼 INZONE 英纵 H6 Air 开放式电竞耳机现已在京东发售，其主打 RPG 音效和轻量化设计，<strong>定价为 1399 元</strong>。</p><dir><a contenteditable=\"false\" href=\"https://u.jd.com/fDOaCLU\" target=\"_blank\"><span class=\"card main-site\"><span class=\"card-logo\"><img src=\"https://img14.360buyimg.com/pop/jfs/t1/418471/22/11892",
+      "content_preview": "<p>IT之家 4 月 27 日消息，索尼 INZONE 英纵 H6 Air 开放式电竞耳机现已在京东发售，其主打 RPG 音效和轻量化设计，<strong>定价为 1399 元</strong>。</p><dir><a contenteditable=\"false\" href=\"https://u.jd.com/fDOaCLU\" target=\"_blank\"><span class=\"card main-site\"><span class=\"card-logo\"><img src=\"https://img14.360buyimg.com/pop/jfs/t1/418471/22/11892/74074/69deff5aFcb745212/00833203200aa629.jpg\" /></span><span class=\"card-info\"><span class=\"card-title\"><span class=\"mall-data\">京东</span><span class=\"card-name\">索尼 INZONE 英纵 H6 Air 开放式游戏耳机</span></sp"
+    },
+    {
+      "title": "中东冲突冲击原材料供应链，全球印刷电路板价格暴涨",
+      "link": "https://www.ithome.com/0/944/129.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T10:58:54+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，据路透社报道，业内消息人士及企业高管表示，中东冲突已扰乱关键原材料供应，推高了几乎所有电子设备所用印刷电路板（PCB）的价格，涵盖智能手机、电脑乃至人工智能服务器等各类产品。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/4/bd810a4e-7b8c-4e33-b735-0fd0d89d2416.jpg?x-bce-process=image/format,f_auto\" /></p><p",
+      "content_preview": "<p>IT之家 4 月 27 日消息，据路透社报道，业内消息人士及企业高管表示，中东冲突已扰乱关键原材料供应，推高了几乎所有电子设备所用印刷电路板（PCB）的价格，涵盖智能手机、电脑乃至人工智能服务器等各类产品。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/4/bd810a4e-7b8c-4e33-b735-0fd0d89d2416.jpg?x-bce-process=image/format,f_auto\" /></p><p>此次供应链中断，对本已深陷存储芯片成本暴涨困境的电子制造商而言，无疑是又一重打击，也凸显出伊朗局势带来的影响正在持续扩大，已对全球供应链、塑料及石油供应造成严重冲击。</p><p>今年 4 月初，伊朗袭击了沙特阿拉伯朱拜勒石化综合体，导致高纯聚苯醚（PPE）树脂生产被迫停工。该树脂是制造 PCB 覆铜板的核心基础原料。</p><p>有消息人士透露，沙特基础工业公司（SABIC）占据全球高纯聚苯醚"
+    },
+    {
+      "title": "量子位专访楼天城：AI是匹脱缰野马，Harness是这个时代最关键的能力",
+      "link": "https://www.qbitai.com/2026/04/408578.html",
+      "source": "量子位",
+      "source_url": "https://www.qbitai.com/feed",
+      "published": "2026-04-27T10:48:17+00:00",
+      "summary": "未来人该怎么和AI共存",
+      "content_preview": "未来人该怎么和AI共存"
+    },
+    {
+      "title": "七彩虹 B860M / B760M (D4)“超级黑刃”主板开启预定：首发 899 / 749 元",
+      "link": "https://www.ithome.com/0/944/110.htm",
+      "source": "IT之家",
+      "source_url": "https://www.ithome.com/rss",
+      "published": "2026-04-27T10:13:21+00:00",
+      "summary": "<p>IT之家 4 月 27 日消息，七彩虹 (Colorful) 今日宣布两款战斧“超级黑刃”主板将于 20:00 开启预定，分别是 BATTLE-AX B860M-PLUS S WIFI7 V20 和支持 DDR4 内存的 BATTLE-AX B760M-PLUS S WIFI7 V20，<strong>首发到手价分别为 899 元和 749 元</strong>。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/af942dfe-e4c2-4829-ad79",
+      "content_preview": "<p>IT之家 4 月 27 日消息，七彩虹 (Colorful) 今日宣布两款战斧“超级黑刃”主板将于 20:00 开启预定，分别是 BATTLE-AX B860M-PLUS S WIFI7 V20 和支持 DDR4 内存的 BATTLE-AX B760M-PLUS S WIFI7 V20，<strong>首发到手价分别为 899 元和 749 元</strong>。</p><p style=\"text-align: center;\"><img src=\"https://img.ithome.com/newsuploadfiles/2026/4/af942dfe-e4c2-4829-ad79-8acfa39ee7d1.png?x-bce-process=image/format,f_auto\" /></p><p>BATTLE-AX B860M-PLUS S WIFI7 V20 和 BATTLE-AX B760M-PLUS S WIFI7 V20 这两款主板拥有一致的“黑武士”主题外观设计，主打“极致性价比”。</p><p>两款产品中IT之家已对前者过<a href=\"https://"
+    },
+    {
+      "title": "Claude第一款AI桌宠硬件，深圳制造",
+      "link": "https://www.qbitai.com/2026/04/408409.html",
+      "source": "量子位",
+      "source_url": "https://www.qbitai.com/feed",
+      "published": "2026-04-27T10:01:37+00:00",
+      "summary": "深圳供应链又赢了",
+      "content_preview": "深圳供应链又赢了"
+    },
+    {
+      "title": "派评 | 近期值得关注的 App",
+      "link": "https://sspai.com/post/109135",
+      "source": "少数派",
+      "source_url": "https://sspai.com/feed",
+      "published": "2026-04-27T09:55:20+00:00",
+      "summary": ">下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀<a href=\"https://sspai.com/post/109135\" target=\"_blank\">查看全文</a>",
+      "content_preview": ">下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀<a href=\"https://sspai.com/post/109135\" target=\"_blank\">查看全文</a>"
+    },
+    {
+      "title": "麒麟云中现，境启新人生！全新坦克700正式上市，售价42.8万起",
+      "link": "https://www.qbitai.com/2026/04/408393.html",
+      "source": "量子位",
+      "source_url": "https://www.qbitai.com/feed",
+      "published": "2026-04-27T09:54:20+00:00",
+      "summary": "全域豪华SUV新旗舰",
+      "content_preview": "全域豪华SUV新旗舰"
+    },
+    {
+      "title": "让孩子画作活起来，用放大镜识万物，给台灯装灵魂……京东JoyInside打造AI硬件时代“超级基础设施”",
+      "link": "https://www.qbitai.com/2026/04/408394.html",
+      "source": "量子位",
+      "source_url": "https://www.qbitai.com/feed",
+      "published": "2026-04-27T09:47:02+00:00",
+      "summary": "依托京东JoyInside，这些充满科幻感的AI新物种正走进现实。",
+      "content_preview": "依托京东JoyInside，这些充满科幻感的AI新物种正走进现实。"
+    },
+    {
+      "title": "芒果传媒与爱诗科技达成战略合作，全栈AI视频能力接入芒果内容生态",
+      "link": "https://www.qbitai.com/2026/04/408390.html",
+      "source": "量子位",
+      "source_url": "https://www.qbitai.com/feed",
+      "published": "2026-04-27T09:28:36+00:00",
+      "summary": "AI视频技术能力进入产业应用阶段",
+      "content_preview": "AI视频技术能力进入产业应用阶段"
+    },
+    {
+      "title": "告别屏幕沉迷，小红书把年轻人「赶出门」",
+      "link": "https://36kr.com/p/3784867361381633?f=rss",
+      "source": "36氪",
+      "source_url": "https://www.36kr.com/feed",
+      "published": "2026-04-27T09:27:52+00:00",
+      "summary": "<h4><strong>撰文｜锅包柚</strong></h4>\n  <h4><strong>封面来源｜Unsplash&nbsp;</strong></h4>\n  <h2><strong>年轻人，开始在小红书上“找颜色”</strong></h2>\n  <p>前些日子，我刷到了或许是这个春天最有生命力的一组照片。</p>\n  <p>小红书博主 @里维斯 Lewis做了一次奇妙的尝试，把相机交给了一对清晨劳作的环卫阿姨和叔叔，邀请他们开启了一场属于自己的colorwalk。</p>\n  <p><strong>他们不懂构图的镜头，却捕捉到了春天最容易被忽略的角落</strong>——那些被风摇落",
+      "content_preview": "<h4><strong>撰文｜锅包柚</strong></h4>\n  <h4><strong>封面来源｜Unsplash&nbsp;</strong></h4>\n  <h2><strong>年轻人，开始在小红书上“找颜色”</strong></h2>\n  <p>前些日子，我刷到了或许是这个春天最有生命力的一组照片。</p>\n  <p>小红书博主 @里维斯 Lewis做了一次奇妙的尝试，把相机交给了一对清晨劳作的环卫阿姨和叔叔，邀请他们开启了一场属于自己的colorwalk。</p>\n  <p><strong>他们不懂构图的镜头，却捕捉到了春天最容易被忽略的角落</strong>——那些被风摇落的粉色花瓣，被细心地摆成了爱心，阿姨拉着叔叔与树上的初绽的花朵合了影，叔叔也定格下了阿姨抛起花瓣时的笑脸。</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260427/v2_d8962fba90e141c2bbe13f217ce54c6f@5679941_oswg1008088oswg1080o"
+    },
+    {
+      "title": "李飞飞引爆的3D新技术，为什么这家深圳公司两年前就“玩腻”了？",
+      "link": "https://www.qbitai.com/2026/04/408030.html",
+      "source": "量子位",
+      "source_url": "https://www.qbitai.com/feed",
+      "published": "2026-04-27T09:13:31+00:00",
+      "summary": "真正的战场不在生成端",
+      "content_preview": "真正的战场不在生成端"
+    },
+    {
+      "title": "“五座新王”岚图泰山X8预售30.29万起，8系市场迎来终极“大杀器”",
+      "link": "https://www.qbitai.com/2026/04/408048.html",
+      "source": "量子位",
+      "source_url": "https://www.qbitai.com/feed",
+      "published": "2026-04-27T08:32:38+00:00",
+      "summary": "定义家用SUV 3.0时代",
+      "content_preview": "定义家用SUV 3.0时代"
+    },
+    {
+      "title": "Meshy用户破千万后杀向新战场：ARR年翻14倍，头部厂商集体买单",
+      "link": "https://www.qbitai.com/2026/04/408049.html",
+      "source": "量子位",
+      "source_url": "https://www.qbitai.com/feed",
+      "published": "2026-04-27T08:27:53+00:00",
+      "summary": "最新上线创意工坊，打通“AI创意”",
+      "content_preview": "最新上线创意工坊，打通“AI创意”"
+    },
+    {
+      "title": "地平线携整车智能全品类产品亮相北京车展，展现完整战略拼图",
+      "link": "https://www.qbitai.com/2026/04/408031.html",
+      "source": "量子位",
+      "source_url": "https://www.qbitai.com/feed",
+      "published": "2026-04-27T08:06:49+00:00",
+      "summary": "懂路、懂人、懂用户、懂生活",
+      "content_preview": "懂路、懂人、懂用户、懂生活"
+    },
+    {
+      "title": "一日一技｜让小企鹅输入法支持 14 键、18 键键位双拼",
+      "link": "https://sspai.com/post/108459",
+      "source": "少数派",
+      "source_url": "https://sspai.com/feed",
+      "published": "2026-04-27T07:46:53+00:00",
+      "summary": "小企鹅输入法只支持 26 键，但有人基于小企鹅魔改了一下使其支持修改布局和图形化操作，加上万象拼音的 14 键位、18 键位，两者一结合——完美。<a href=\"https://sspai.com/post/108459\" target=\"_blank\">查看全文</a>",
+      "content_preview": "小企鹅输入法只支持 26 键，但有人基于小企鹅魔改了一下使其支持修改布局和图形化操作，加上万象拼音的 14 键位、18 键位，两者一结合——完美。<a href=\"https://sspai.com/post/108459\" target=\"_blank\">查看全文</a>"
+    },
+    {
+      "title": "关于流感和疫苗，你需要知道哪些信息？",
+      "link": "https://sspai.com/post/76945",
+      "source": "少数派",
+      "source_url": "https://sspai.com/feed",
+      "published": "2026-04-27T03:30:55+00:00",
+      "summary": "冬天往往是传染病肆虐的季节。除了在全世界范围内流行已久的新冠病毒，引起季节性流感的流感病毒也不可小视。想要预防流感带来的后果，最简单的方法就是接种流感疫苗。本文就将介绍在打流感疫苗之前，关于流感和疫苗，你需要知道什么。<a href=\"https://sspai.com/post/76945\" target=\"_blank\">查看全文</a>",
+      "content_preview": "冬天往往是传染病肆虐的季节。除了在全世界范围内流行已久的新冠病毒，引起季节性流感的流感病毒也不可小视。想要预防流感带来的后果，最简单的方法就是接种流感疫苗。本文就将介绍在打流感疫苗之前，关于流感和疫苗，你需要知道什么。<a href=\"https://sspai.com/post/76945\" target=\"_blank\">查看全文</a>"
+    },
+    {
+      "title": "12款产品入选，2026春季「焦点」产品计划重磅发布",
+      "link": "https://36kr.com/p/3784491394784519?f=rss",
+      "source": "36氪",
+      "source_url": "https://www.36kr.com/feed",
+      "published": "2026-04-27T03:05:52+00:00",
+      "summary": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260427/v2_91c1af849aa6449ca4fe893040a42664@5679941_oswg424392oswg902oswg2577_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p>【点音Divoom桌搭全家桶评测视频】</p>\n  <p class=\"loading-entity\">&amp;amp;amp;nbsp;</p>\n  <p class=\"ima",
+      "content_preview": "<p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260427/v2_91c1af849aa6449ca4fe893040a42664@5679941_oswg424392oswg902oswg2577_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p>【点音Divoom桌搭全家桶评测视频】</p>\n  <p class=\"loading-entity\">&amp;amp;amp;nbsp;</p>\n  <p class=\"image-wrapper\"><img src=\"https://img.36krcdn.com/hsossms/20260427/v2_567517d5dbb44ce0b2f9ebafb69e54f5@5679941_oswg513116oswg902oswg3695_img_000?x-oss-process=image/format,jpg/interlace,1\" /></p>\n  <p cla"
+    },
+    {
+      "title": "前苹果工程师做了款体感游戏机，销量拳打Xbox，营收数亿美元",
+      "link": "https://36kr.com/p/3783828639571203?f=rss",
+      "source": "36氪",
+      "source_url": "https://www.36kr.com/feed",
+      "published": "2026-04-27T01:15:00+00:00",
+      "summary": "<p>作者丨欧雪&nbsp;</p>\n  <p>编辑丨袁斯来</p>\n  <p>2025年黑五，美国游戏主机市场有些不同寻常。</p>\n  <p>根据追踪美国游戏主机与软件销售的Circana统计数据，在黑色星期五当周，PS5以47%的市场份额领跑，任天堂Switch2占据24%，而一款名为Nex Playground的体感游戏机，则以14%的市占率冲上第三名——将Xbox挤出了前三位置。</p>\n  <p>当游戏主机市场固化多年后，没人想到还会有年轻公司杀出重围。</p>\n  <p>更让人意外的是，这家公司诞生于香港。其创始人李景辉（David Lee）曾在苹果工作8年，2017年离职创立了",
+      "content_preview": "<p>作者丨欧雪&nbsp;</p>\n  <p>编辑丨袁斯来</p>\n  <p>2025年黑五，美国游戏主机市场有些不同寻常。</p>\n  <p>根据追踪美国游戏主机与软件销售的Circana统计数据，在黑色星期五当周，PS5以47%的市场份额领跑，任天堂Switch2占据24%，而一款名为Nex Playground的体感游戏机，则以14%的市占率冲上第三名——将Xbox挤出了前三位置。</p>\n  <p>当游戏主机市场固化多年后，没人想到还会有年轻公司杀出重围。</p>\n  <p>更让人意外的是，这家公司诞生于香港。其创始人李景辉（David Lee）曾在苹果工作8年，2017年离职创立了NEX Team Inc.。</p>\n  <p>Nex成立最初几年并无太大声量，主要是做了一款篮球体感应用HomeCourt。2023年，他们推出了硬件产品Nex Playground，定价249美元。这是一台没有手柄、无需教学、站上去就能挥臂的游戏体感盒子，由创维数字合作生产，面向海外发行。</p>\n  <p>头一年，Nex Playground只卖出5000台，但第二年销量就飙升了30倍，到2"
+    },
+    {
+      "title": "早期项目 | 前地平线产品负责人死磕“拿放”动作，轮式机器人今年锁定百台出货",
+      "link": "https://36kr.com/p/3783824870317312?f=rss",
+      "source": "36氪",
+      "source_url": "https://www.36kr.com/feed",
+      "published": "2026-04-27T01:10:00+00:00",
+      "summary": "<p>作者丨欧雪</p>\n  <p>编辑丨袁斯来</p>\n  <p>在具身智能行业普遍沉迷双足人形和仿真训练的当下，有一家公司选择了一条不太一样的路径：聚焦仓储物流场景，用“轮式底盘+双臂”死磕占人力成本60%的“拿放”动作。这是一家由中科南京软件技术研究院孵化出来的具身智能企业——智往未来。</p>\n  <p>智往未来2025年11月成立于南京，创始人孙浚凯曾在地平线担任智能座舱产品线总经理，推动百万终端量产，具备从0到1的产品设计与量产经验。公司早期以“具身智能课题组”在中科系旗下孵化两年，2025年底独立注册。</p>\n  <p>具身智能在真实环境中的泛化难题，核心在于Sim2Real鸿",
+      "content_preview": "<p>作者丨欧雪</p>\n  <p>编辑丨袁斯来</p>\n  <p>在具身智能行业普遍沉迷双足人形和仿真训练的当下，有一家公司选择了一条不太一样的路径：聚焦仓储物流场景，用“轮式底盘+双臂”死磕占人力成本60%的“拿放”动作。这是一家由中科南京软件技术研究院孵化出来的具身智能企业——智往未来。</p>\n  <p>智往未来2025年11月成立于南京，创始人孙浚凯曾在地平线担任智能座舱产品线总经理，推动百万终端量产，具备从0到1的产品设计与量产经验。公司早期以“具身智能课题组”在中科系旗下孵化两年，2025年底独立注册。</p>\n  <p>具身智能在真实环境中的泛化难题，核心在于Sim2Real鸿沟。传统离线强化学习依赖仿真数据，部署成功率低；在线强化学习精度高，但学习周期长，难以在SKU达百万级的电商仓落地。</p>\n  <p>智往未来创新性地引入 Human-in-the-Loop 在线强化学习方法，将人工的即时纠偏能力与统一的强化学习目标深度融合，打通了从模仿学习到自主探索的关键路径。基于该方法，仅需少量演示数据和短时间在线学习，即可显著提升任务成功率，在样本效率上相比传统范式实现数"
+    },
+    {
+      "title": "「破壳机器人」许华哲：两年内，中国将出现可用的家庭机器人",
+      "link": "https://36kr.com/p/3784365164322055?f=rss",
+      "source": "36氪",
+      "source_url": "https://www.36kr.com/feed",
+      "published": "2026-04-27T01:00:00+00:00",
+      "summary": "<p><strong>文｜邱晓芬</strong></p>\n  <p><strong>编辑｜苏建勋</strong></p>\n  <p>2026年，全球的具身智能机器人创业者不约而同将目光方向调转向深水区：家庭。</p>\n  <p>点燃这份热情的，是近期行业里闪烁着的一丝丝Scaling Law苗头——</p>\n  <p>先是硅谷具身智能公司Generalist AI在GEN-1模型上验证了确定性，当他们给机器人喂进海量数据后，精细操作任务成功率竟从64%提升到了惊人的99%；</p>\n  <p>随后，硅谷当红的具身智能独角兽公司Sunday Robotics也试图解决家庭场景数据难关，不仅推",
+      "content_preview": "<p><strong>文｜邱晓芬</strong></p>\n  <p><strong>编辑｜苏建勋</strong></p>\n  <p>2026年，全球的具身智能机器人创业者不约而同将目光方向调转向深水区：家庭。</p>\n  <p>点燃这份热情的，是近期行业里闪烁着的一丝丝Scaling Law苗头——</p>\n  <p>先是硅谷具身智能公司Generalist AI在GEN-1模型上验证了确定性，当他们给机器人喂进海量数据后，精细操作任务成功率竟从64%提升到了惊人的99%；</p>\n  <p>随后，硅谷当红的具身智能独角兽公司Sunday Robotics也试图解决家庭场景数据难关，不仅推出Umi手套数据采集方案，还直接将机器人Memo送进家庭做家务（收拾餐做、冲咖啡、叠衣服），因此吸引了大量的资本押注。</p>\n  <p>在大洋彼岸的中国，近期闯入家庭机器人领域的创业者中，还有一个熟悉的身影——许华哲。</p>\n  <p>“两年内，中国将会出现可用的家庭机器人”，他对于行业的判断，同样乐观且激进。</p>\n  <p>作为“伯克利归国四子之一”、清华大学交叉信息研究院助理教授，20"
+    },
+    {
+      "title": "8点1氪丨豆包提前查到2026山东事业编成绩？最新回应；东方甄选主播集体离职，俞敏洪回应；花呗白条月付等面临重大调整",
+      "link": "https://36kr.com/p/3784311487945735?f=rss",
+      "source": "36氪",
+      "source_url": "https://www.36kr.com/feed",
+      "published": "2026-04-27T00:03:45+00:00",
+      "summary": "<h2>今日热点导览</h2>\n  <p>美国白宫记者晚宴大厅发生枪击事件</p>\n  <p>王传福夫妇坐地铁参加北京车展被偶遇</p>\n  <p>DeepSeekV4成OpenClaw默认模型</p>\n  <p>2025年全国大型演唱会票房295.58亿</p>\n  <p>OpenAI首席执行官就未通报枪击案嫌疑人道歉</p>\n  <h2>TOP3大新闻</h2>\n  <p><strong>豆包提前查到2026山东事业编成绩？最新回应</strong></p>\n  <p>4月23日晚间，有网友发帖称，“豆包查到2026山东事业编成绩了”，并附上一张成绩单，但成绩部分涂掉了。“不过好像只有济南",
+      "content_preview": "<h2>今日热点导览</h2>\n  <p>美国白宫记者晚宴大厅发生枪击事件</p>\n  <p>王传福夫妇坐地铁参加北京车展被偶遇</p>\n  <p>DeepSeekV4成OpenClaw默认模型</p>\n  <p>2025年全国大型演唱会票房295.58亿</p>\n  <p>OpenAI首席执行官就未通报枪击案嫌疑人道歉</p>\n  <h2>TOP3大新闻</h2>\n  <p><strong>豆包提前查到2026山东事业编成绩？最新回应</strong></p>\n  <p>4月23日晚间，有网友发帖称，“豆包查到2026山东事业编成绩了”，并附上一张成绩单，但成绩部分涂掉了。“不过好像只有济南槐荫区的能查，是不是属实咱也不知道，到底啥情况呀？”4月24日，记者联系上该网友了解到，帖子内容来自其他网友，但目前原帖网友已经删除了帖子。有网友表示，AI搜集信息的能力很强大，“链接做好了还没公布，被AI爬出来了。”</p>\n  <p>记者拨打报名政策咨询电话，工作人员向记者解释了其中原委。“因为今天要发布笔试成绩，所以昨晚工作人员在测试成绩查询端口的时候，有网民无意中点进去了。”对方表示，“发"
+    },
+    {
+      "title": "How to build scalable web apps with OpenAI's Privacy Filter",
+      "link": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
+      "source": "Hugging Face 官方博客",
+      "source_url": "https://huggingface.co/blog/feed.xml",
+      "published": "2026-04-27T00:00:00+00:00",
+      "summary": "",
+      "content_preview": ""
+    },
+    {
+      "title": "派早报：X 推出聊天软件 XChat",
+      "link": "https://sspai.com/post/109114",
+      "source": "少数派",
+      "source_url": "https://sspai.com/feed",
+      "published": "2026-04-26T23:40:49+00:00",
+      "summary": "<p>X 推出聊天软件 XChat</p><p>美国要求外交人员向他国警告中国 AI 蒸馏行为</p><p>国内 AI 公司被要求不接受未经批准的美国投资</p><p>香港在黄金周前加强电子烟禁令的内地宣传</p><p>FILCO 键盘母公司关停</p><p>官方回应豆包提前查到 2026 山东事业编成绩</p><p>看看就行的简讯</p><p>少数派的近期动态</p><p>你可能错过的好文章</p><a href=\"https://sspai.com/post/109114\" target=\"_blank\">查看全文</a>",
+      "content_preview": "<p>X 推出聊天软件 XChat</p><p>美国要求外交人员向他国警告中国 AI 蒸馏行为</p><p>国内 AI 公司被要求不接受未经批准的美国投资</p><p>香港在黄金周前加强电子烟禁令的内地宣传</p><p>FILCO 键盘母公司关停</p><p>官方回应豆包提前查到 2026 山东事业编成绩</p><p>看看就行的简讯</p><p>少数派的近期动态</p><p>你可能错过的好文章</p><a href=\"https://sspai.com/post/109114\" target=\"_blank\">查看全文</a>"
+    }
+  ]
+}

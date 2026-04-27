@@ -1,0 +1,98 @@
+[
+  {
+    "type": "source",
+    "id": 1,
+    "name": "科技爱好者周刊（阮一峰）",
+    "url": "https://www.ruanyifeng.com/blog/atom.xml"
+  },
+  {
+    "type": "source",
+    "id": 2,
+    "name": "老胡的周刊",
+    "url": "https://weekly.howie6879.cn/rss/rss.xml"
+  },
+  {
+    "type": "source",
+    "id": 3,
+    "name": "少数派",
+    "url": "https://sspai.com/feed"
+  },
+  {
+    "type": "source",
+    "id": 4,
+    "name": "知乎精选",
+    "url": "https://www.zhihu.com/rss"
+  },
+  {
+    "type": "source",
+    "id": 5,
+    "name": "知乎日报",
+    "url": "https://daily.zhihu.com/atom"
+  },
+  {
+    "type": "source",
+    "id": 6,
+    "name": "V2EX 精华（分享创造）",
+    "url": "https://v2ex-create.nexmm.com/rss.xml"
+  },
+  {
+    "type": "source",
+    "id": 7,
+    "name": "IT之家",
+    "url": "https://www.ithome.com/rss"
+  },
+  {
+    "type": "source",
+    "id": 8,
+    "name": "36氪",
+    "url": "https://www.36kr.com/feed"
+  },
+  {
+    "type": "source",
+    "id": 9,
+    "name": "极客公园",
+    "url": "https://www.geekpark.net/rss"
+  },
+  {
+    "type": "source",
+    "id": 10,
+    "name": "三花 AI 快讯",
+    "url": "https://sanhua.himrr.com/daily-news/feed"
+  },
+  {
+    "type": "source",
+    "id": 11,
+    "name": "机器之心",
+    "url": "https://www.jiqizhixin.com/rss"
+  },
+  {
+    "type": "source",
+    "id": 12,
+    "name": "量子位",
+    "url": "https://www.qbitai.com/feed"
+  },
+  {
+    "type": "source",
+    "id": 13,
+    "name": "Hugging Face 官方博客",
+    "url": "https://huggingface.co/blog/feed.xml"
+  },
+  {
+    "type": "source",
+    "id": 14,
+    "name": "GitHub 每日热榜",
+    "url": "https://rsshub.app/github/trending/daily"
+  },
+  {
+    "type": "source",
+    "id": 15,
+    "name": "B站排行榜（全站）",
+    "url": "https://rsshub.app/bilibili/ranking/all/0/3"
+  },
+  {
+    "type": "source",
+    "id": 16,
+    "name": "微博实时热榜",
+    "url": "https://rsshub.app/weibo/hot/search"
+  }
+]
